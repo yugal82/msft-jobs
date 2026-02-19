@@ -4,16 +4,17 @@ A Python-based job scraper that monitors Microsoft Careers for new Software Engi
 
 ## Features
 
-- 🔍 Fetches job listings from Microsoft Careers API every 15 minutes
+- 🔍 Fetches job listings from Microsoft Careers API every 30 minutes
 - 📝 Tracks new job openings and saves them to `jobs.json`
 - 🔄 Automatically commits new jobs to git repository
 - 🚀 Automatically pushes to GitHub repository
-- ⏰ Runs during business hours: Monday-Friday, 8:30 AM - 5:00 PM
+- ☁️ Runs in the cloud via GitHub Actions (no local machine required)
+- ⏰ Business hours only: Monday–Friday, 8:30 AM – 5:00 PM Pacific Time (PST/PDT)
 - 📊 Maintains a history of all discovered jobs
 
-## Quick Setup (Business Hours Operation)
+## Quick Setup (Cloud – Recommended)
 
-### 1. Install Dependencies
+### 1. Install Dependencies (for local testing)
 
 ```bash
 pip install -r requirements.txt
@@ -34,7 +35,20 @@ This will:
 
 **Important:** Ensure you have push access to the repository. For HTTPS authentication, you may need to use a [Personal Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) instead of a password.
 
-### 3. Test the Scraper
+### 3. Enable and Verify GitHub Actions (Cloud Execution)
+
+1. Push this repository to GitHub (already configured for `origin`).
+2. In the GitHub UI, go to **Settings → Actions → General**:
+   - Set **Workflow permissions** to **Read and write permissions**.
+3. Go to the **Actions** tab and ensure the **Microsoft Job Scraper** workflow is visible.
+4. Optionally click **Run workflow** to trigger a manual run.
+
+The workflow file lives at `.github/workflows/scraper.yml` and will:
+- Run on GitHub-hosted runners
+- Use Pacific Time (PST/PDT) to determine business hours
+- Trigger the scraper every 30 minutes during Mon–Fri, 8:30 AM–5:00 PM PT
+
+### 4. Test the Scraper Locally (Optional)
 
 Run manually to test:
 
@@ -42,9 +56,9 @@ Run manually to test:
 python3 scraper.py
 ```
 
-This will fetch jobs, commit them, and push to GitHub.
+This will fetch jobs, commit them, and push to GitHub (using your local git credentials).
 
-### 4. Install Background Service (macOS)
+## Local Background Service (Optional, macOS)
 
 To run the scraper during business hours in the background:
 
@@ -55,8 +69,8 @@ To run the scraper during business hours in the background:
 This installs a macOS launchd service that:
 - Runs automatically on system startup
 - Keeps running continuously (restarts if it crashes)
-- Checks for new jobs every 15 minutes during business hours
-- Schedule: Monday-Friday, 8:30 AM - 5:00 PM
+- Checks for new jobs every 30 minutes during business hours
+- Schedule: Monday–Friday, 8:30 AM – 5:00 PM (local machine time)
 - Automatically commits and pushes to GitHub
 
 **Service Management:**
@@ -88,18 +102,15 @@ chmod +x scraper.py
 crontab -e
 ```
 
-3. Add the following line:
+3. Add the following lines (every 30 minutes, Mon–Fri, 8:30 AM – 5:00 PM):
 ```bash
-*/15 * * * * cd /Users/yugalkhanter/Desktop/Yugal\ Work/Projects/Microsoft\ Job\ Scraper && /usr/bin/python3 scraper.py >> scraper.log 2>&1
+30 8-16 * * 1-5 cd /Users/yugalkhanter/Desktop/Yugal\ Work/Projects/Microsoft\ Job\ Scraper && /usr/bin/python3 scraper.py >> scraper.log 2>&1
+0 9-17  * * 1-5 cd /Users/yugalkhanter/Desktop/Yugal\ Work/Projects/Microsoft\ Job\ Scraper && /usr/bin/python3 scraper.py >> scraper.log 2>&1
 ```
 
 **Note:** Replace the path with your actual project path and ensure the Python path is correct (use `which python3` to find it).
 
-**Limitation:** Cron jobs may not run if your computer is asleep. Use the launchd service for reliable background operation.
-
-### Option C: GitHub Actions (Cloud-based)
-
-For true 24x7 operation without keeping your computer on, you can use GitHub Actions. See `github-actions.yml` example (if provided).
+**Limitation:** Cron jobs may not run if your computer is asleep. For a local, always-on setup, use the launchd service above. For truly machine-independent execution, use the GitHub Actions workflow (cloud).
 
 ## Files
 

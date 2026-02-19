@@ -1,0 +1,240 @@
+{
+  "jobs": [
+    {
+      "id": 1970393556628809,
+      "displayJobId": "200008760",
+      "name": "Cloud Solution Architect and Senior Cloud Solution Architect - Data and AI (Multiple Openings)",
+      "locations": [
+        "United States, Multiple Locations, Multiple Locations"
+      ],
+      "standardizedLocations": [
+        "US"
+      ],
+      "postedTs": 1771452871,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Cloud Solution Architecture",
+      "creationTs": 1763685089,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200008760",
+      "positionUrl": "/careers/job/1970393556628809",
+      "discovered_at": "2026-02-19T11:05:12.180835"
+    },
+    {
+      "id": 1970393556751389,
+      "displayJobId": "200025326",
+      "name": "Software Engineer",
+      "locations": [
+        "United States, Washington, Redmond",
+        "United States, Georgia, Atlanta",
+        "United States, District of Columbia, Washington D.C.",
+        "United States, Arizona, Phoenix",
+        "United States, Texas, San Antonio"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US",
+        "Atlanta, GA, US",
+        "Washington, DC, US",
+        "Phoenix, AZ, US",
+        "San Antonio, TX, US"
+      ],
+      "postedTs": 1771439737,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1770159321,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200025326",
+      "positionUrl": "/careers/job/1970393556751389",
+      "discovered_at": "2026-02-19T11:05:12.180844"
+    },
+    {
+      "id": 1970393556642330,
+      "displayJobId": "200016219",
+      "name": "Software Engineer II",
+      "locations": [
+        "United States, Multiple Locations, Multiple Locations"
+      ],
+      "standardizedLocations": [
+        "US"
+      ],
+      "postedTs": 1771359680,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1765571766,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200016219",
+      "positionUrl": "/careers/job/1970393556642330",
+      "discovered_at": "2026-02-19T11:05:12.180847"
+    },
+    {
+      "id": 1970393556748172,
+      "displayJobId": "200023416",
+      "name": "Software Engineer II - CTJ - Poly",
+      "locations": [
+        "United States, Virginia, Reston",
+        "United States, Washington, Redmond",
+        "United States, Georgia, Atlanta",
+        "United States, Maryland, Annapolis Junction"
+      ],
+      "standardizedLocations": [
+        "Reston, VA, US",
+        "Redmond, WA, US",
+        "Atlanta, GA, US",
+        "MD,US"
+      ],
+      "postedTs": 1771357283,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1769468648,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200023416",
+      "positionUrl": "/careers/job/1970393556748172",
+      "discovered_at": "2026-02-19T11:05:12.180850"
+    },
+    {
+      "id": 1970393556653574,
+      "displayJobId": "200018585",
+      "name": "Software Engineer II",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1771002051,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1766429048,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200018585",
+      "positionUrl": "/careers/job/1970393556653574",
+      "discovered_at": "2026-02-19T11:05:12.180852"
+    },
+    {
+      "id": 1970393556754456,
+      "displayJobId": "200027241",
+      "name": "Software Engineering II",
+      "locations": [
+        "United States, Multiple Locations, Multiple Locations"
+      ],
+      "standardizedLocations": [
+        "US"
+      ],
+      "postedTs": 1770925165,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1770910788,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200027241",
+      "positionUrl": "/careers/job/1970393556754456",
+      "discovered_at": "2026-02-19T11:05:12.180854"
+    },
+    {
+      "id": 1970393556753221,
+      "displayJobId": "200026419",
+      "name": "Software Engineer",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1770914778,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1770667790,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200026419",
+      "positionUrl": "/careers/job/1970393556753221",
+      "discovered_at": "2026-02-19T11:05:12.180856"
+    },
+    {
+      "id": 1970393556749880,
+      "displayJobId": "200024297",
+      "name": "Software Engineering II",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1770913847,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1769797695,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200024297",
+      "positionUrl": "/careers/job/1970393556749880",
+      "discovered_at": "2026-02-19T11:05:12.180858"
+    },
+    {
+      "id": 1970393556640236,
+      "displayJobId": "200014577",
+      "name": "Software Engineer",
+      "locations": [
+        "United States, Multiple Locations, Multiple Locations"
+      ],
+      "standardizedLocations": [
+        "US"
+      ],
+      "postedTs": 1770898485,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1765231048,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200014577",
+      "positionUrl": "/careers/job/1970393556640236",
+      "discovered_at": "2026-02-19T11:05:12.180860"
+    },
+    {
+      "id": 1970393556748514,
+      "displayJobId": "200023528",
+      "name": "Software Engineer",
+      "locations": [
+        "United States, Multiple Locations, Multiple Locations"
+      ],
+      "standardizedLocations": [
+        "US"
+      ],
+      "postedTs": 1770895400,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1769530207,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200023528",
+      "positionUrl": "/careers/job/1970393556748514",
+      "discovered_at": "2026-02-19T11:05:12.180862"
+    }
+  ],
+  "last_updated": "2026-02-19T11:05:12.180864",
+  "total_jobs": 10
+}

@@ -155,6 +155,96 @@ def commit_to_git(message: str) -> bool:
         return False
 
 
+def push_to_github(branch: str = 'main') -> bool:
+    """Push commits to GitHub repository."""
+    try:
+        # Check if remote exists
+        result = subprocess.run(
+            ['git', 'remote', '-v'],
+            cwd=DATA_DIR,
+            capture_output=True,
+            text=True
+        )
+        
+        if not result.stdout.strip():
+            print("No remote repository configured. Skipping push.")
+            return False
+        
+        # In GitHub Actions, use GITHUB_TOKEN if available
+        github_token = os.environ.get('GITHUB_TOKEN')
+        if github_token:
+            # Update remote URL to use token for authentication
+            remote_url = subprocess.run(
+                ['git', 'remote', 'get-url', 'origin'],
+                cwd=DATA_DIR,
+                capture_output=True,
+                text=True
+            ).stdout.strip()
+            
+            if remote_url and 'github.com' in remote_url:
+                # Convert HTTPS URL to use token
+                if remote_url.startswith('https://'):
+                    # Extract repo path
+                    repo_path = remote_url.replace('https://', '').replace('https://github.com/', '')
+                    if not repo_path.startswith('github.com/'):
+                        auth_url = f'https://{github_token}@github.com/{repo_path}'
+                        subprocess.run(
+                            ['git', 'remote', 'set-url', 'origin', auth_url],
+                            cwd=DATA_DIR,
+                            check=True
+                        )
+        
+        # Check if there are commits to push
+        result = subprocess.run(
+            ['git', 'rev-list', '--count', f'origin/{branch}..HEAD'],
+            cwd=DATA_DIR,
+            capture_output=True,
+            text=True
+        )
+        
+        # If command fails, might be first push or branch doesn't exist remotely
+        if result.returncode != 0:
+            # Try to push and set upstream
+            print(f"Pushing to GitHub (first push or setting upstream)...")
+            subprocess.run(
+                ['git', 'push', '-u', 'origin', branch],
+                cwd=DATA_DIR,
+                check=True,
+                env={**os.environ, 'GIT_TERMINAL_PROMPT': '0'}
+            )
+            print(f"Successfully pushed to GitHub: {branch}")
+            return True
+        
+        commits_ahead = int(result.stdout.strip())
+        if commits_ahead == 0:
+            print("No new commits to push.")
+            return False
+        
+        # Push to GitHub
+        print(f"Pushing {commits_ahead} commit(s) to GitHub...")
+        subprocess.run(
+            ['git', 'push', 'origin', branch],
+            cwd=DATA_DIR,
+            check=True,
+            env={**os.environ, 'GIT_TERMINAL_PROMPT': '0'}
+        )
+        print(f"Successfully pushed to GitHub: {branch}")
+        return True
+        
+    except subprocess.CalledProcessError as e:
+        print(f"Error pushing to GitHub: {e}")
+        # Check if it's an authentication issue
+        if 'Authentication failed' in str(e) or 'Permission denied' in str(e):
+            print("GitHub authentication failed. Please ensure:")
+            print("  1. You have configured git credentials")
+            print("  2. You have push access to the repository")
+            print("  3. Consider using a Personal Access Token (PAT)")
+        return False
+    except FileNotFoundError:
+        print("Git is not installed. Skipping git push.")
+        return False
+
+
 def main():
     """Main scraper function."""
     print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Starting job scraper...")
@@ -189,7 +279,9 @@ def main():
         
         # Commit to git
         commit_message = f"Add {len(new_jobs)} new job(s) - {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
-        commit_to_git(commit_message)
+        if commit_to_git(commit_message):
+            # Push to GitHub after successful commit
+            push_to_github()
     else:
         print("No new jobs found.")
     

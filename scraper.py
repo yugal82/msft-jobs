@@ -109,15 +109,9 @@ def commit_to_git(message: str) -> bool:
     """Commit changes to git repository."""
     try:
         # Check if git repo exists
-        result = subprocess.run(
-            ['git', 'rev-parse', '--git-dir'],
-            cwd=DATA_DIR,
-            capture_output=True,
-            text=True
-        )
-        
-        if result.returncode != 0:
-            print("Not a git repository. Initializing...")
+        git_dir = DATA_DIR / '.git'
+        if not git_dir.exists():
+            print("Initializing git repository...")
             subprocess.run(['git', 'init'], cwd=DATA_DIR, check=True)
             # Create .gitignore if it doesn't exist
             gitignore = DATA_DIR / '.gitignore'

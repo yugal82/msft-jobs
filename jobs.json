@@ -255,8 +255,74 @@
       "atsJobId": "200026750",
       "positionUrl": "/careers/job/1970393556753717",
       "discovered_at": "2026-02-19T14:03:59.441724"
+    },
+    {
+      "id": 1970393556638404,
+      "displayJobId": "200013170",
+      "name": "Software Engineer",
+      "locations": [
+        "United States, Multiple Locations, Multiple Locations"
+      ],
+      "standardizedLocations": [
+        "US"
+      ],
+      "postedTs": 1771597652,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1764793628,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200013170",
+      "positionUrl": "/careers/job/1970393556638404",
+      "discovered_at": "2026-02-20T17:59:25.516445"
+    },
+    {
+      "id": 1970393556745208,
+      "displayJobId": "200022351",
+      "name": "Principal Applied AI Engineer",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1771596438,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1769003438,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200022351",
+      "positionUrl": "/careers/job/1970393556745208",
+      "discovered_at": "2026-02-20T17:59:25.516451"
+    },
+    {
+      "id": 1970393556754014,
+      "displayJobId": "200026933",
+      "name": "Software Engineer",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1771596175,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1770823975,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200026933",
+      "positionUrl": "/careers/job/1970393556754014",
+      "discovered_at": "2026-02-20T17:59:25.516453"
     }
   ],
-  "last_updated": "2026-02-19T14:03:59.441735",
-  "total_jobs": 11
+  "last_updated": "2026-02-20T17:59:25.516454",
+  "total_jobs": 14
 }

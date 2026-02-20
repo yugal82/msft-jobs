@@ -321,8 +321,30 @@
       "atsJobId": "200026933",
       "positionUrl": "/careers/job/1970393556754014",
       "discovered_at": "2026-02-20T17:59:25.516453"
+    },
+    {
+      "id": 1970393556638427,
+      "displayJobId": "200013189",
+      "name": "Software Engineer",
+      "locations": [
+        "United States, Multiple Locations, Multiple Locations"
+      ],
+      "standardizedLocations": [
+        "US"
+      ],
+      "postedTs": 1771620507,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1764795592,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200013189",
+      "positionUrl": "/careers/job/1970393556638427",
+      "discovered_at": "2026-02-20T20:52:03.591984"
     }
   ],
-  "last_updated": "2026-02-20T17:59:25.516454",
-  "total_jobs": 14
+  "last_updated": "2026-02-20T20:52:03.591988",
+  "total_jobs": 15
 }

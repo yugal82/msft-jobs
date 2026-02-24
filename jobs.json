@@ -435,8 +435,122 @@
       "atsJobId": "200026306",
       "positionUrl": "/careers/job/1970393556753094",
       "discovered_at": "2026-02-24T16:36:15.235269"
+    },
+    {
+      "id": 1970393556756232,
+      "displayJobId": "200027970",
+      "name": "Software Engineer: Azure Data Fabric OneLake",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1771954982,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1771361819,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200027970",
+      "positionUrl": "/careers/job/1970393556756232",
+      "discovered_at": "2026-02-24T17:50:18.159173"
+    },
+    {
+      "id": 1970393556751301,
+      "displayJobId": "200025262",
+      "name": "Senior Research Engineer",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1771954515,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1770147418,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200025262",
+      "positionUrl": "/careers/job/1970393556751301",
+      "discovered_at": "2026-02-24T17:50:18.159178"
+    },
+    {
+      "id": 1970393556761675,
+      "displayJobId": "200028309",
+      "name": "Software Engineer II",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1771954302,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1771459893,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200028309",
+      "positionUrl": "/careers/job/1970393556761675",
+      "discovered_at": "2026-02-24T17:50:18.159180"
+    },
+    {
+      "id": 1970393556754612,
+      "displayJobId": "200027350",
+      "name": "Software Engineer Foundry Agents Platform",
+      "locations": [
+        "United States, Washington, Redmond",
+        "United States, Massachusetts, Cambridge",
+        "United States, California, Mountain View"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US",
+        "Cambridge, MA, US",
+        "Mountain View, CA, US"
+      ],
+      "postedTs": 1771954089,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1770934375,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200027350",
+      "positionUrl": "/careers/job/1970393556754612",
+      "discovered_at": "2026-02-24T17:50:18.159183"
+    },
+    {
+      "id": 1970393556761662,
+      "displayJobId": "200028298",
+      "name": "Quantum Software Engineer",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1771952067,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Quantum Software Engineering",
+      "creationTs": 1771457039,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200028298",
+      "positionUrl": "/careers/job/1970393556761662",
+      "discovered_at": "2026-02-24T17:50:18.159184"
     }
   ],
-  "last_updated": "2026-02-24T16:36:15.235270",
-  "total_jobs": 19
+  "last_updated": "2026-02-24T17:50:18.159186",
+  "total_jobs": 24
 }

@@ -365,8 +365,78 @@
       "atsJobId": "200027397",
       "positionUrl": "/careers/job/1970393556754663",
       "discovered_at": "2026-02-23T19:51:31.724906"
+    },
+    {
+      "id": 1970393556760393,
+      "displayJobId": "200028284",
+      "name": "Software Engineer II",
+      "locations": [
+        "United States, Washington, Redmond",
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US",
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1771949279,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1771454034,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200028284",
+      "positionUrl": "/careers/job/1970393556760393",
+      "discovered_at": "2026-02-24T16:36:15.235263"
+    },
+    {
+      "id": 1970393556754224,
+      "displayJobId": "200027099",
+      "name": "Software Engineer IC3",
+      "locations": [
+        "United States, Multiple Locations, Multiple Locations",
+        "United States, Multiple Locations, Multiple Locations"
+      ],
+      "standardizedLocations": [
+        "US",
+        "US"
+      ],
+      "postedTs": 1771949123,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1770850942,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200027099",
+      "positionUrl": "/careers/job/1970393556754224",
+      "discovered_at": "2026-02-24T16:36:15.235267"
+    },
+    {
+      "id": 1970393556753094,
+      "displayJobId": "200026306",
+      "name": "Software Engineer",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1771944426,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1770652333,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200026306",
+      "positionUrl": "/careers/job/1970393556753094",
+      "discovered_at": "2026-02-24T16:36:15.235269"
     }
   ],
-  "last_updated": "2026-02-23T19:51:31.724910",
-  "total_jobs": 16
+  "last_updated": "2026-02-24T16:36:15.235270",
+  "total_jobs": 19
 }

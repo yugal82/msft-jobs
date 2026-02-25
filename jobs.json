@@ -659,8 +659,30 @@
       "atsJobId": "200026784",
       "positionUrl": "/careers/job/1970393556753752",
       "discovered_at": "2026-02-25T17:54:20.091510"
+    },
+    {
+      "id": 1970393556754699,
+      "displayJobId": "200027433",
+      "name": "Quantum Software Engineer",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1772047904,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Quantum Software Engineering",
+      "creationTs": 1770948240,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200027433",
+      "positionUrl": "/careers/job/1970393556754699",
+      "discovered_at": "2026-02-25T22:58:08.776183"
     }
   ],
-  "last_updated": "2026-02-25T17:54:20.091514",
-  "total_jobs": 29
+  "last_updated": "2026-02-25T22:58:08.776188",
+  "total_jobs": 30
 }

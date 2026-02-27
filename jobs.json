@@ -925,8 +925,30 @@
       "atsJobId": "200021291",
       "positionUrl": "/careers/job/1970393556668603",
       "discovered_at": "2026-02-27T19:26:12.384090"
+    },
+    {
+      "id": 1970393556816944,
+      "displayJobId": "200029575",
+      "name": "Security Researcher",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1772227300,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Security Research",
+      "creationTs": 1772139626,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200029575",
+      "positionUrl": "/careers/job/1970393556816944",
+      "discovered_at": "2026-02-27T21:48:38.230321"
     }
   ],
-  "last_updated": "2026-02-27T19:26:12.384094",
-  "total_jobs": 41
+  "last_updated": "2026-02-27T21:48:38.230325",
+  "total_jobs": 42
 }

@@ -1035,8 +1035,30 @@
       "atsJobId": "200015972",
       "positionUrl": "/careers/job/1970393556641999",
       "discovered_at": "2026-03-02T21:54:39.472045"
+    },
+    {
+      "id": 1970393556824114,
+      "displayJobId": "200029999",
+      "name": "Software Engineer - Devices",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1772501594,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1772484509,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200029999",
+      "positionUrl": "/careers/job/1970393556824114",
+      "discovered_at": "2026-03-03T16:34:20.852841"
     }
   ],
-  "last_updated": "2026-03-02T21:54:39.472049",
-  "total_jobs": 46
+  "last_updated": "2026-03-03T16:34:20.852846",
+  "total_jobs": 47
 }

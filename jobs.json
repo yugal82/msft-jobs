@@ -1233,8 +1233,52 @@
       "atsJobId": "200029615",
       "positionUrl": "/careers/job/1970393556818166",
       "discovered_at": "2026-03-05T22:20:26.263854"
+    },
+    {
+      "id": 1970393556745461,
+      "displayJobId": "200022429",
+      "name": "Research Software Engineer",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1772813969,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1769023236,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200022429",
+      "positionUrl": "/careers/job/1970393556745461",
+      "discovered_at": "2026-03-06T17:04:58.774725"
+    },
+    {
+      "id": 1970393556827350,
+      "displayJobId": "200030630",
+      "name": "Software Engineer",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1772754560,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1772731657,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200030630",
+      "positionUrl": "/careers/job/1970393556827350",
+      "discovered_at": "2026-03-06T17:04:58.774730"
     }
   ],
-  "last_updated": "2026-03-05T22:20:26.263861",
-  "total_jobs": 55
+  "last_updated": "2026-03-06T17:04:58.774731",
+  "total_jobs": 57
 }

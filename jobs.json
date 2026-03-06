@@ -1277,8 +1277,30 @@
       "atsJobId": "200030630",
       "positionUrl": "/careers/job/1970393556827350",
       "discovered_at": "2026-03-06T17:04:58.774730"
+    },
+    {
+      "id": 1970393556757955,
+      "displayJobId": "200028174",
+      "name": "Service Engineer II",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1772749661,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Service Engineering",
+      "creationTs": 1771429326,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200028174",
+      "positionUrl": "/careers/job/1970393556757955",
+      "discovered_at": "2026-03-06T18:35:13.539265"
     }
   ],
-  "last_updated": "2026-03-06T17:04:58.774731",
-  "total_jobs": 57
+  "last_updated": "2026-03-06T18:35:13.539270",
+  "total_jobs": 58
 }

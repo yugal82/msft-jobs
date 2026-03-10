@@ -1365,8 +1365,30 @@
       "atsJobId": "200001872",
       "positionUrl": "/careers/job/1970393556620867",
       "discovered_at": "2026-03-09T23:47:28.903061"
+    },
+    {
+      "id": 1970393556749874,
+      "displayJobId": "200024292",
+      "name": "Software Engineer II - CoreAI",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1773106439,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1769796293,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200024292",
+      "positionUrl": "/careers/job/1970393556749874",
+      "discovered_at": "2026-03-10T16:32:44.418530"
     }
   ],
-  "last_updated": "2026-03-09T23:47:28.903067",
-  "total_jobs": 61
+  "last_updated": "2026-03-10T16:32:44.418534",
+  "total_jobs": 62
 }

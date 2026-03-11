@@ -1457,8 +1457,52 @@
       "atsJobId": "200030723",
       "positionUrl": "/careers/job/1970393556827585",
       "discovered_at": "2026-03-10T21:21:02.011069"
+    },
+    {
+      "id": 1970393556826654,
+      "displayJobId": "200030493",
+      "name": "Software Engineering IC3",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1773254543,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1772662961,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200030493",
+      "positionUrl": "/careers/job/1970393556826654",
+      "discovered_at": "2026-03-11T19:35:14.847834"
+    },
+    {
+      "id": 1970393556824189,
+      "displayJobId": "200030032",
+      "name": "Software Engineering",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1773181353,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1772492284,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200030032",
+      "positionUrl": "/careers/job/1970393556824189",
+      "discovered_at": "2026-03-11T19:35:14.847840"
     }
   ],
-  "last_updated": "2026-03-10T21:21:02.011078",
-  "total_jobs": 65
+  "last_updated": "2026-03-11T19:35:14.847842",
+  "total_jobs": 67
 }

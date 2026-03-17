@@ -1567,8 +1567,54 @@
       "atsJobId": "200030503",
       "positionUrl": "/careers/job/1970393556826667",
       "discovered_at": "2026-03-16T16:37:25.794873"
+    },
+    {
+      "id": 1970393556833996,
+      "displayJobId": "200031149",
+      "name": "Service Engineer",
+      "locations": [
+        "United States, Washington, Redmond",
+        "United States, Georgia, Atlanta"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US",
+        "Atlanta, GA, US"
+      ],
+      "postedTs": 1773778730,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Service Engineering",
+      "creationTs": 1773096481,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200031149",
+      "positionUrl": "/careers/job/1970393556833996",
+      "discovered_at": "2026-03-17T20:28:13.925096"
+    },
+    {
+      "id": 1970393556847494,
+      "displayJobId": "200031868",
+      "name": "Software Engineer",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1773776857,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1773418844,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200031868",
+      "positionUrl": "/careers/job/1970393556847494",
+      "discovered_at": "2026-03-17T20:28:13.925101"
     }
   ],
-  "last_updated": "2026-03-16T16:37:25.794878",
-  "total_jobs": 70
+  "last_updated": "2026-03-17T20:28:13.925103",
+  "total_jobs": 72
 }

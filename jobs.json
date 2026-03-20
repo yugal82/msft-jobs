@@ -1707,8 +1707,30 @@
       "atsJobId": "200029935",
       "positionUrl": "/careers/job/1970393556823693",
       "discovered_at": "2026-03-20T16:07:14.219052"
+    },
+    {
+      "id": 1970393556849603,
+      "displayJobId": "200032145",
+      "name": "Software Engineer II - Customer Security & Trust",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1774024533,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1773689529,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200032145",
+      "positionUrl": "/careers/job/1970393556849603",
+      "discovered_at": "2026-03-20T17:28:27.400122"
     }
   ],
-  "last_updated": "2026-03-20T16:07:14.219057",
-  "total_jobs": 76
+  "last_updated": "2026-03-20T17:28:27.400127",
+  "total_jobs": 77
 }

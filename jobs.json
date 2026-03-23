@@ -1751,8 +1751,30 @@
       "atsJobId": "200032396",
       "positionUrl": "/careers/job/1970393556850762",
       "discovered_at": "2026-03-20T22:52:21.829866"
+    },
+    {
+      "id": 1970393556619889,
+      "displayJobId": "200000986",
+      "name": "Software Engineer II",
+      "locations": [
+        "United States, California, Santa Clara"
+      ],
+      "standardizedLocations": [
+        "Santa Clara, CA, US"
+      ],
+      "postedTs": 1774280100,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1762155104,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200000986",
+      "positionUrl": "/careers/job/1970393556619889",
+      "discovered_at": "2026-03-23T16:30:18.804540"
     }
   ],
-  "last_updated": "2026-03-20T22:52:21.829870",
-  "total_jobs": 78
+  "last_updated": "2026-03-23T16:30:18.804547",
+  "total_jobs": 79
 }

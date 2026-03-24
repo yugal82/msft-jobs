@@ -1795,8 +1795,52 @@
       "atsJobId": "200021664",
       "positionUrl": "/careers/job/1970393556734973",
       "discovered_at": "2026-03-23T22:56:34.559155"
+    },
+    {
+      "id": 1970393556825270,
+      "displayJobId": "200030338",
+      "name": "Software Engineer Data Security Compliance Governance & Privacy",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1774357240,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1772608849,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200030338",
+      "positionUrl": "/careers/job/1970393556825270",
+      "discovered_at": "2026-03-24T16:37:24.161334"
+    },
+    {
+      "id": 1970393556668399,
+      "displayJobId": "200021147",
+      "name": "Software Engineer II - Embedded Networking",
+      "locations": [
+        "United States, Multiple Locations, Multiple Locations"
+      ],
+      "standardizedLocations": [
+        "US"
+      ],
+      "postedTs": 1774311943,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1768339673,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200021147",
+      "positionUrl": "/careers/job/1970393556668399",
+      "discovered_at": "2026-03-24T16:37:24.161338"
     }
   ],
-  "last_updated": "2026-03-23T22:56:34.559161",
-  "total_jobs": 80
+  "last_updated": "2026-03-24T16:37:24.161340",
+  "total_jobs": 82
 }

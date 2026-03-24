@@ -1839,8 +1839,30 @@
       "atsJobId": "200021147",
       "positionUrl": "/careers/job/1970393556668399",
       "discovered_at": "2026-03-24T16:37:24.161338"
+    },
+    {
+      "id": 1970393556850645,
+      "displayJobId": "200032364",
+      "name": "Software Engineer - Full Stack",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1774384598,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1773812194,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200032364",
+      "positionUrl": "/careers/job/1970393556850645",
+      "discovered_at": "2026-03-24T21:27:48.121237"
     }
   ],
-  "last_updated": "2026-03-24T16:37:24.161340",
-  "total_jobs": 82
+  "last_updated": "2026-03-24T21:27:48.121244",
+  "total_jobs": 83
 }

@@ -1883,8 +1883,30 @@
       "atsJobId": "200032166",
       "positionUrl": "/careers/job/1970393556849639",
       "discovered_at": "2026-03-25T16:42:21.695739"
+    },
+    {
+      "id": 1970393556619865,
+      "displayJobId": "200000662",
+      "name": "Software Engineer, Agent Services (CoreAI)",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1774621088,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1762154552,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200000662",
+      "positionUrl": "/careers/job/1970393556619865",
+      "discovered_at": "2026-03-27T16:27:46.600744"
     }
   ],
-  "last_updated": "2026-03-25T16:42:21.695746",
-  "total_jobs": 84
+  "last_updated": "2026-03-27T16:27:46.600750",
+  "total_jobs": 85
 }

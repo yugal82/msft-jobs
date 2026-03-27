@@ -1905,8 +1905,74 @@
       "atsJobId": "200000662",
       "positionUrl": "/careers/job/1970393556619865",
       "discovered_at": "2026-03-27T16:27:46.600744"
+    },
+    {
+      "id": 1970393556849705,
+      "displayJobId": "200032194",
+      "name": "Software Engineer II - HR Employee Experience",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1774645301,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1773711757,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200032194",
+      "positionUrl": "/careers/job/1970393556849705",
+      "discovered_at": "2026-03-27T21:54:52.969696"
+    },
+    {
+      "id": 1970393556852782,
+      "displayJobId": "200033169",
+      "name": "Software Engineer II - Copilot Studio",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1774561933,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1774456417,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200033169",
+      "positionUrl": "/careers/job/1970393556852782",
+      "discovered_at": "2026-03-27T21:54:52.969703"
+    },
+    {
+      "id": 1970393556852777,
+      "displayJobId": "200033163",
+      "name": "Software Engineer II - Copilot Studio",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1774561856,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1774454795,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200033163",
+      "positionUrl": "/careers/job/1970393556852777",
+      "discovered_at": "2026-03-27T21:54:52.969705"
     }
   ],
-  "last_updated": "2026-03-27T16:27:46.600750",
-  "total_jobs": 85
+  "last_updated": "2026-03-27T21:54:52.969707",
+  "total_jobs": 88
 }

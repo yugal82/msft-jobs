@@ -1993,8 +1993,32 @@
       "atsJobId": "200032654",
       "positionUrl": "/careers/job/1970393556851300",
       "discovered_at": "2026-03-30T16:34:10.534533"
+    },
+    {
+      "id": 1970393556753235,
+      "displayJobId": "200026431",
+      "name": "Model Design Staff - Language Engineer",
+      "locations": [
+        "United States, Washington, Redmond",
+        "United States, California, Mountain View"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US",
+        "Mountain View, CA, US"
+      ],
+      "postedTs": 1774989227,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Applied Sciences",
+      "creationTs": 1770669401,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200026431",
+      "positionUrl": "/careers/job/1970393556753235",
+      "discovered_at": "2026-03-31T21:28:46.045011"
     }
   ],
-  "last_updated": "2026-03-30T16:34:10.534538",
-  "total_jobs": 89
+  "last_updated": "2026-03-31T21:28:46.045016",
+  "total_jobs": 90
 }

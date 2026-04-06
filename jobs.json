@@ -2155,8 +2155,54 @@
       "atsJobId": "200032760",
       "positionUrl": "/careers/job/1970393556851544",
       "discovered_at": "2026-04-06T18:41:23.028016"
+    },
+    {
+      "id": 1970393556856501,
+      "displayJobId": "200034152",
+      "name": "Software Engineer -Engineering Systems",
+      "locations": [
+        "United States, Washington, Redmond",
+        "United States, California, Mountain View"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US",
+        "Mountain View, CA, US"
+      ],
+      "postedTs": 1775512040,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1775236945,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200034152",
+      "positionUrl": "/careers/job/1970393556856501",
+      "discovered_at": "2026-04-06T21:55:50.734548"
+    },
+    {
+      "id": 1970393556856332,
+      "displayJobId": "200034074",
+      "name": "Software Engineer Bing Fundamentals",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1775509820,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1775163008,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200034074",
+      "positionUrl": "/careers/job/1970393556856332",
+      "discovered_at": "2026-04-06T21:55:50.734553"
     }
   ],
-  "last_updated": "2026-04-06T18:41:23.028023",
-  "total_jobs": 96
+  "last_updated": "2026-04-06T21:55:50.734555",
+  "total_jobs": 98
 }

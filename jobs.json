@@ -2223,8 +2223,30 @@
       "atsJobId": "200033947",
       "positionUrl": "/careers/job/1970393556856039",
       "discovered_at": "2026-04-08T19:10:15.528306"
+    },
+    {
+      "id": 1970393556847549,
+      "displayJobId": "200031918",
+      "name": "Network Automation Engineer",
+      "locations": [
+        "United States, Multiple Locations, Multiple Locations"
+      ],
+      "standardizedLocations": [
+        "US"
+      ],
+      "postedTs": 1775853485,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Cloud Network Engineering",
+      "creationTs": 1773423126,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200031918",
+      "positionUrl": "/careers/job/1970393556847549",
+      "discovered_at": "2026-04-10T21:00:15.247788"
     }
   ],
-  "last_updated": "2026-04-08T19:10:15.528311",
-  "total_jobs": 99
+  "last_updated": "2026-04-10T21:00:15.247793",
+  "total_jobs": 100
 }

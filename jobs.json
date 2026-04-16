@@ -2267,8 +2267,78 @@
       "atsJobId": "200034628",
       "positionUrl": "/careers/job/1970393556858038",
       "discovered_at": "2026-04-10T21:59:35.970465"
+    },
+    {
+      "id": 1970393556859076,
+      "displayJobId": "200034991",
+      "name": "Cloud Solution Architect, Copilot Studio, Partner Solutions",
+      "locations": [
+        "United States, Multiple Locations, Multiple Locations"
+      ],
+      "standardizedLocations": [
+        "US"
+      ],
+      "postedTs": 1776352950,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Cloud Solution Architecture",
+      "creationTs": 1776190235,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200034991",
+      "positionUrl": "/careers/job/1970393556859076",
+      "discovered_at": "2026-04-16T16:54:14.349111"
+    },
+    {
+      "id": 1970393556858723,
+      "displayJobId": "200034858",
+      "name": "Software Engineering - CTJ - Poly",
+      "locations": [
+        "United States, Washington, Redmond",
+        "United States, Virginia, Reston",
+        "United States, Maryland, Annapolis Junction"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US",
+        "Reston, VA, US",
+        "MD,US"
+      ],
+      "postedTs": 1776322800,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1776091382,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200034858",
+      "positionUrl": "/careers/job/1970393556858723",
+      "discovered_at": "2026-04-16T16:54:14.349119"
+    },
+    {
+      "id": 1970393556857483,
+      "displayJobId": "200034430",
+      "name": "Software Engineer - Backend",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1776308378,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1775663525,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200034430",
+      "positionUrl": "/careers/job/1970393556857483",
+      "discovered_at": "2026-04-16T16:54:14.349120"
     }
   ],
-  "last_updated": "2026-04-10T21:59:35.970471",
-  "total_jobs": 101
+  "last_updated": "2026-04-16T16:54:14.349121",
+  "total_jobs": 104
 }

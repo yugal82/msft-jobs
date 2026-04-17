@@ -2359,8 +2359,32 @@
       "atsJobId": "200034562",
       "positionUrl": "/careers/job/1970393556857840",
       "discovered_at": "2026-04-16T21:33:26.577455"
+    },
+    {
+      "id": 1970393556857568,
+      "displayJobId": "200034488",
+      "name": "Software Engineer",
+      "locations": [
+        "United States, Washington, Redmond",
+        "United States, California, Mountain View"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US",
+        "Mountain View, CA, US"
+      ],
+      "postedTs": 1776446568,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1775676879,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200034488",
+      "positionUrl": "/careers/job/1970393556857568",
+      "discovered_at": "2026-04-17T17:39:32.314358"
     }
   ],
-  "last_updated": "2026-04-16T21:33:26.577461",
-  "total_jobs": 105
+  "last_updated": "2026-04-17T17:39:32.314366",
+  "total_jobs": 106
 }

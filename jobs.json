@@ -2383,8 +2383,30 @@
       "atsJobId": "200034488",
       "positionUrl": "/careers/job/1970393556857568",
       "discovered_at": "2026-04-17T17:39:32.314358"
+    },
+    {
+      "id": 1970393556826717,
+      "displayJobId": "200030541",
+      "name": "Software Engineer AI Platform",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1776455840,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1772672198,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200030541",
+      "positionUrl": "/careers/job/1970393556826717",
+      "discovered_at": "2026-04-17T20:34:28.409566"
     }
   ],
-  "last_updated": "2026-04-17T17:39:32.314366",
-  "total_jobs": 106
+  "last_updated": "2026-04-17T20:34:28.409571",
+  "total_jobs": 107
 }

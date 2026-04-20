@@ -2427,8 +2427,30 @@
       "atsJobId": "200034068",
       "positionUrl": "/careers/job/1970393556856322",
       "discovered_at": "2026-04-20T16:41:37.187934"
+    },
+    {
+      "id": 1970393556859794,
+      "displayJobId": "200035225",
+      "name": "Critical Environment Technician (Night Shift)",
+      "locations": [
+        "United States, Illinois, Chicago"
+      ],
+      "standardizedLocations": [
+        "Chicago, IL, US"
+      ],
+      "postedTs": 1776721456,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Critical Environment Ops",
+      "creationTs": 1776367207,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200035225",
+      "positionUrl": "/careers/job/1970393556859794",
+      "discovered_at": "2026-04-20T22:33:03.972280"
     }
   ],
-  "last_updated": "2026-04-20T16:41:37.187939",
-  "total_jobs": 108
+  "last_updated": "2026-04-20T22:33:03.972286",
+  "total_jobs": 109
 }

@@ -2449,8 +2449,30 @@
       "atsJobId": "200035225",
       "positionUrl": "/careers/job/1970393556859794",
       "discovered_at": "2026-04-20T22:33:03.972280"
+    },
+    {
+      "id": 1970393556859424,
+      "displayJobId": "200035134",
+      "name": "Critical Environment Support Assistant",
+      "locations": [
+        "United States, Illinois, Chicago"
+      ],
+      "standardizedLocations": [
+        "Chicago, IL, US"
+      ],
+      "postedTs": 1776802413,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Critical Environment Ops",
+      "creationTs": 1776292972,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200035134",
+      "positionUrl": "/careers/job/1970393556859424",
+      "discovered_at": "2026-04-21T20:53:04.235423"
     }
   ],
-  "last_updated": "2026-04-20T22:33:03.972286",
-  "total_jobs": 109
+  "last_updated": "2026-04-21T20:53:04.235428",
+  "total_jobs": 110
 }

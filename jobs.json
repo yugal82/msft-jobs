@@ -2471,8 +2471,30 @@
       "atsJobId": "200035134",
       "positionUrl": "/careers/job/1970393556859424",
       "discovered_at": "2026-04-21T20:53:04.235423"
+    },
+    {
+      "id": 1970393556861025,
+      "displayJobId": "200035668",
+      "name": "Principal Software Engineer",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1776807137,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1776793990,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200035668",
+      "positionUrl": "/careers/job/1970393556861025",
+      "discovered_at": "2026-04-21T21:36:28.055368"
     }
   ],
-  "last_updated": "2026-04-21T20:53:04.235428",
-  "total_jobs": 110
+  "last_updated": "2026-04-21T21:36:28.055375",
+  "total_jobs": 111
 }

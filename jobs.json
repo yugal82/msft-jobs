@@ -2493,8 +2493,30 @@
       "atsJobId": "200035668",
       "positionUrl": "/careers/job/1970393556861025",
       "discovered_at": "2026-04-21T21:36:28.055368"
+    },
+    {
+      "id": 1970393556858394,
+      "displayJobId": "200034742",
+      "name": "Software Engineer Foundry Agent",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1776865099,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1775851924,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200034742",
+      "positionUrl": "/careers/job/1970393556858394",
+      "discovered_at": "2026-04-22T16:38:18.935646"
     }
   ],
-  "last_updated": "2026-04-21T21:36:28.055375",
-  "total_jobs": 111
+  "last_updated": "2026-04-22T16:38:18.935652",
+  "total_jobs": 112
 }

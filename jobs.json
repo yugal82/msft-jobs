@@ -2605,8 +2605,30 @@
       "atsJobId": "200035667",
       "positionUrl": "/careers/job/1970393556861022",
       "discovered_at": "2026-04-28T19:05:59.783071"
+    },
+    {
+      "id": 1970393556861742,
+      "displayJobId": "200035977",
+      "name": "Software Engineer AI Data Platform - CoreAI",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1777497251,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1777005191,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200035977",
+      "positionUrl": "/careers/job/1970393556861742",
+      "discovered_at": "2026-05-01T16:32:29.476545"
     }
   ],
-  "last_updated": "2026-04-28T19:05:59.783078",
-  "total_jobs": 116
+  "last_updated": "2026-05-01T16:32:29.476549",
+  "total_jobs": 117
 }

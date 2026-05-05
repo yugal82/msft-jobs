@@ -2671,8 +2671,30 @@
       "atsJobId": "200036222",
       "positionUrl": "/careers/job/1970393556862452",
       "discovered_at": "2026-05-05T20:01:06.552335"
+    },
+    {
+      "id": 1970393556749929,
+      "displayJobId": "200024335",
+      "name": "Technology Consultant - CTJ - TS/SCI",
+      "locations": [
+        "United States, Multiple Locations, Multiple Locations"
+      ],
+      "standardizedLocations": [
+        "US"
+      ],
+      "postedTs": 1778014270,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Technology Consulting",
+      "creationTs": 1769804645,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200024335",
+      "positionUrl": "/careers/job/1970393556749929",
+      "discovered_at": "2026-05-05T21:31:25.057003"
     }
   ],
-  "last_updated": "2026-05-05T20:01:06.552341",
-  "total_jobs": 119
+  "last_updated": "2026-05-05T21:31:25.057011",
+  "total_jobs": 120
 }

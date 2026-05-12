@@ -2693,8 +2693,30 @@
       "atsJobId": "200024335",
       "positionUrl": "/careers/job/1970393556749929",
       "discovered_at": "2026-05-05T21:31:25.057003"
+    },
+    {
+      "id": 1970393556637410,
+      "displayJobId": "200012322",
+      "name": "\"Purview\" Software Engineer",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1770134464,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1764692162,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200012322",
+      "positionUrl": "/careers/job/1970393556637410",
+      "discovered_at": "2026-05-12T20:56:59.489553"
     }
   ],
-  "last_updated": "2026-05-05T21:31:25.057011",
-  "total_jobs": 120
+  "last_updated": "2026-05-12T20:56:59.489558",
+  "total_jobs": 121
 }

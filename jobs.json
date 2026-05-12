@@ -2715,8 +2715,32 @@
       "atsJobId": "200012322",
       "positionUrl": "/careers/job/1970393556637410",
       "discovered_at": "2026-05-12T20:56:59.489553"
+    },
+    {
+      "id": 1970393556860172,
+      "displayJobId": "200035405",
+      "name": "Senior Software Engineer - Responsible AI (CoreAI)",
+      "locations": [
+        "United States, California, Mountain View",
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Mountain View, CA, US",
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1777068588,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1776451818,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200035405",
+      "positionUrl": "/careers/job/1970393556860172",
+      "discovered_at": "2026-05-12T22:07:02.987540"
     }
   ],
-  "last_updated": "2026-05-12T20:56:59.489558",
-  "total_jobs": 121
+  "last_updated": "2026-05-12T22:07:02.987545",
+  "total_jobs": 122
 }

@@ -2805,8 +2805,30 @@
       "atsJobId": "200035967",
       "positionUrl": "/careers/job/1970393556861703",
       "discovered_at": "2026-05-15T17:10:06.185878"
+    },
+    {
+      "id": 1970393556867032,
+      "displayJobId": "200037564",
+      "name": "Software Engineer Responsible AI",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1778867287,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1778780602,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200037564",
+      "positionUrl": "/careers/job/1970393556867032",
+      "discovered_at": "2026-05-15T19:00:26.117716"
     }
   ],
-  "last_updated": "2026-05-15T17:10:06.185885",
-  "total_jobs": 125
+  "last_updated": "2026-05-15T19:00:26.117721",
+  "total_jobs": 126
 }

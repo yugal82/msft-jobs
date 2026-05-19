@@ -2827,8 +2827,30 @@
       "atsJobId": "200037564",
       "positionUrl": "/careers/job/1970393556867032",
       "discovered_at": "2026-05-15T19:00:26.117716"
+    },
+    {
+      "id": 1970393556867694,
+      "displayJobId": "200037803",
+      "name": "Member of Technical Staff - Copilot",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1779131659,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Data Engineering",
+      "creationTs": 1779125360,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200037803",
+      "positionUrl": "/careers/job/1970393556867694",
+      "discovered_at": "2026-05-19T19:42:49.724550"
     }
   ],
-  "last_updated": "2026-05-15T19:00:26.117721",
-  "total_jobs": 126
+  "last_updated": "2026-05-19T19:42:49.724555",
+  "total_jobs": 127
 }

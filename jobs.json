@@ -2849,8 +2849,30 @@
       "atsJobId": "200037803",
       "positionUrl": "/careers/job/1970393556867694",
       "discovered_at": "2026-05-19T19:42:49.724550"
+    },
+    {
+      "id": 1970393556867395,
+      "displayJobId": "200037726",
+      "name": "Software Engineer - CTJ - Poly",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1779295640,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1778875363,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200037726",
+      "positionUrl": "/careers/job/1970393556867395",
+      "discovered_at": "2026-05-20T18:03:16.584863"
     }
   ],
-  "last_updated": "2026-05-19T19:42:49.724555",
-  "total_jobs": 127
+  "last_updated": "2026-05-20T18:03:16.584870",
+  "total_jobs": 128
 }

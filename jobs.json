@@ -2871,8 +2871,30 @@
       "atsJobId": "200037726",
       "positionUrl": "/careers/job/1970393556867395",
       "discovered_at": "2026-05-20T18:03:16.584863"
+    },
+    {
+      "id": 1970393556868720,
+      "displayJobId": "200038136",
+      "name": "Software Engineer - Driver Platform",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1779406925,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1779398543,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200038136",
+      "positionUrl": "/careers/job/1970393556868720",
+      "discovered_at": "2026-05-21T23:49:34.436966"
     }
   ],
-  "last_updated": "2026-05-20T18:03:16.584870",
-  "total_jobs": 128
+  "last_updated": "2026-05-21T23:49:34.436971",
+  "total_jobs": 129
 }

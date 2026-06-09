@@ -2983,8 +2983,36 @@
       "atsJobId": "200038856",
       "positionUrl": "/careers/job/1970393556870540",
       "discovered_at": "2026-06-03T22:22:23.805193"
+    },
+    {
+      "id": 1970393556657018,
+      "displayJobId": "200019691",
+      "name": "Software Engineer II - CTJ - POLY",
+      "locations": [
+        "United States, Washington, Redmond",
+        "United States, Virginia, Reston",
+        "United States, Maryland, Annapolis Junction",
+        "United States, Georgia, Atlanta"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US",
+        "Reston, VA, US",
+        "MD,US",
+        "Atlanta, GA, US"
+      ],
+      "postedTs": 1767906182,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1767719256,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200019691",
+      "positionUrl": "/careers/job/1970393556657018",
+      "discovered_at": "2026-06-09T17:33:09.242543"
     }
   ],
-  "last_updated": "2026-06-03T22:22:23.805200",
-  "total_jobs": 133
+  "last_updated": "2026-06-09T17:33:09.242551",
+  "total_jobs": 134
 }

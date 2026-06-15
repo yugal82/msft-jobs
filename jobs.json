@@ -3033,8 +3033,30 @@
       "atsJobId": "200040045",
       "positionUrl": "/careers/job/1970393556874283",
       "discovered_at": "2026-06-10T18:13:53.072147"
+    },
+    {
+      "id": 1970393556875231,
+      "displayJobId": "200040415",
+      "name": "Software Engineer II",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1781558512,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1781293919,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200040415",
+      "positionUrl": "/careers/job/1970393556875231",
+      "discovered_at": "2026-06-15T22:08:46.360088"
     }
   ],
-  "last_updated": "2026-06-10T18:13:53.072153",
-  "total_jobs": 135
+  "last_updated": "2026-06-15T22:08:46.360095",
+  "total_jobs": 136
 }

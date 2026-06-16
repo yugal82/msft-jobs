@@ -3055,8 +3055,52 @@
       "atsJobId": "200040415",
       "positionUrl": "/careers/job/1970393556875231",
       "discovered_at": "2026-06-15T22:08:46.360088"
+    },
+    {
+      "id": 1970393556847405,
+      "displayJobId": "200031838",
+      "name": "Software Engineer II - Azure Resource Graph",
+      "locations": [
+        "United States, Multiple Locations, Multiple Locations"
+      ],
+      "standardizedLocations": [
+        "US"
+      ],
+      "postedTs": 1781633502,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1773406391,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200031838",
+      "positionUrl": "/careers/job/1970393556847405",
+      "discovered_at": "2026-06-16T19:02:20.652242"
+    },
+    {
+      "id": 1970393556872137,
+      "displayJobId": "200039064",
+      "name": "Security Engineer - CTJ - Poly",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1780515892,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Penetration Testing",
+      "creationTs": 1780339048,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200039064",
+      "positionUrl": "/careers/job/1970393556872137",
+      "discovered_at": "2026-06-16T19:02:20.652250"
     }
   ],
-  "last_updated": "2026-06-15T22:08:46.360095",
-  "total_jobs": 136
+  "last_updated": "2026-06-16T19:02:20.652252",
+  "total_jobs": 138
 }

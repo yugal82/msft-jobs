@@ -3099,8 +3099,52 @@
       "atsJobId": "200039064",
       "positionUrl": "/careers/job/1970393556872137",
       "discovered_at": "2026-06-16T19:02:20.652250"
+    },
+    {
+      "id": 1970393556875702,
+      "displayJobId": "200040518",
+      "name": "Data Engineer II - Getting Customers Ready for AI",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1782148716,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1781561425,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200040518",
+      "positionUrl": "/careers/job/1970393556875702",
+      "discovered_at": "2026-06-22T18:56:24.105781"
+    },
+    {
+      "id": 1970393556899565,
+      "displayJobId": "200041041",
+      "name": "Software Engineer: Microsoft AI Development Acceleration Program, Redmond",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1782143855,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1781905086,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200041041",
+      "positionUrl": "/careers/job/1970393556899565",
+      "discovered_at": "2026-06-22T18:56:24.105786"
     }
   ],
-  "last_updated": "2026-06-16T19:02:20.652252",
-  "total_jobs": 138
+  "last_updated": "2026-06-22T18:56:24.105788",
+  "total_jobs": 140
 }

@@ -3143,8 +3143,30 @@
       "atsJobId": "200041041",
       "positionUrl": "/careers/job/1970393556899565",
       "discovered_at": "2026-06-22T18:56:24.105786"
+    },
+    {
+      "id": 1970393556913148,
+      "displayJobId": "200041330",
+      "name": "Critical Environment Technician",
+      "locations": [
+        "United States, Wisconsin, Mount Pleasant"
+      ],
+      "standardizedLocations": [
+        "Mt Pleasant, WI, US"
+      ],
+      "postedTs": 1782317233,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Critical Environment Ops",
+      "creationTs": 1782252286,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200041330",
+      "positionUrl": "/careers/job/1970393556913148",
+      "discovered_at": "2026-06-24T17:27:50.309938"
     }
   ],
-  "last_updated": "2026-06-22T18:56:24.105788",
-  "total_jobs": 140
+  "last_updated": "2026-06-24T17:27:50.309942",
+  "total_jobs": 141
 }

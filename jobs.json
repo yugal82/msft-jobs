@@ -3209,8 +3209,30 @@
       "atsJobId": "200041565",
       "positionUrl": "/careers/job/1970393556914839",
       "discovered_at": "2026-07-01T22:44:33.999573"
+    },
+    {
+      "id": 1970393556924503,
+      "displayJobId": "200042384",
+      "name": "Technical Support Engineering",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1783370659,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Technical Support Engineering",
+      "creationTs": 1783026828,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200042384",
+      "positionUrl": "/careers/job/1970393556924503",
+      "discovered_at": "2026-07-06T21:51:55.805838"
     }
   ],
-  "last_updated": "2026-07-01T22:44:33.999578",
-  "total_jobs": 143
+  "last_updated": "2026-07-06T21:51:55.805841",
+  "total_jobs": 144
 }

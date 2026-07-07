@@ -3231,8 +3231,30 @@
       "atsJobId": "200042384",
       "positionUrl": "/careers/job/1970393556924503",
       "discovered_at": "2026-07-06T21:51:55.805838"
+    },
+    {
+      "id": 1970393556914979,
+      "displayJobId": "200041596",
+      "name": "Software Engineer - Commercial Engineering & AI (CEAI)",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1783462650,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1782428898,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200041596",
+      "positionUrl": "/careers/job/1970393556914979",
+      "discovered_at": "2026-07-07T22:34:17.458427"
     }
   ],
-  "last_updated": "2026-07-06T21:51:55.805841",
-  "total_jobs": 144
+  "last_updated": "2026-07-07T22:34:17.458433",
+  "total_jobs": 145
 }

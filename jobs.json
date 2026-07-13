@@ -3323,8 +3323,34 @@
       "atsJobId": "200043456",
       "positionUrl": "/careers/job/1970393556932502",
       "discovered_at": "2026-07-13T20:36:19.249830"
+    },
+    {
+      "id": 1970393556926963,
+      "displayJobId": "200042769",
+      "name": "Software Engineer - CTJ - Poly",
+      "locations": [
+        "United States, Washington, Redmond",
+        "United States, Virginia, Reston",
+        "United States, Maryland, Annapolis Junction"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US",
+        "Reston, VA, US",
+        "MD,US"
+      ],
+      "postedTs": 1783978033,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1783456034,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200042769",
+      "positionUrl": "/careers/job/1970393556926963",
+      "discovered_at": "2026-07-13T21:43:01.087157"
     }
   ],
-  "last_updated": "2026-07-13T20:36:19.249832",
-  "total_jobs": 148
+  "last_updated": "2026-07-13T21:43:01.087163",
+  "total_jobs": 149
 }

@@ -3253,8 +3253,30 @@
       "atsJobId": "200041596",
       "positionUrl": "/careers/job/1970393556914979",
       "discovered_at": "2026-07-07T22:34:17.458427"
+    },
+    {
+      "id": 1970393556927942,
+      "displayJobId": "200043013",
+      "name": "Technical Support Engineering",
+      "locations": [
+        "United States, Washington, Seattle"
+      ],
+      "standardizedLocations": [
+        "Seattle, WA, US"
+      ],
+      "postedTs": 1783967722,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Technical Support Engineering",
+      "creationTs": 1783543675,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200043013",
+      "positionUrl": "/careers/job/1970393556927942",
+      "discovered_at": "2026-07-13T19:09:01.603557"
     }
   ],
-  "last_updated": "2026-07-07T22:34:17.458433",
-  "total_jobs": 145
+  "last_updated": "2026-07-13T19:09:01.603561",
+  "total_jobs": 146
 }

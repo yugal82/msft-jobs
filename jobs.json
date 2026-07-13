@@ -3275,8 +3275,56 @@
       "atsJobId": "200043013",
       "positionUrl": "/careers/job/1970393556927942",
       "discovered_at": "2026-07-13T19:09:01.603557"
+    },
+    {
+      "id": 1970393556932423,
+      "displayJobId": "200043429",
+      "name": "Software Engineer",
+      "locations": [
+        "United States, California, Mountain View"
+      ],
+      "standardizedLocations": [
+        "Mountain View, CA, US"
+      ],
+      "postedTs": 1783973659,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1783721431,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200043429",
+      "positionUrl": "/careers/job/1970393556932423",
+      "discovered_at": "2026-07-13T20:36:19.249819"
+    },
+    {
+      "id": 1970393556932502,
+      "displayJobId": "200043456",
+      "name": "Technical Support Engineer",
+      "locations": [
+        "United States, North Dakota, Fargo",
+        "United States, Texas, Las Colinas",
+        "United States, North Carolina, Charlotte"
+      ],
+      "standardizedLocations": [
+        "Fargo, ND, US",
+        "Irving, TX, US",
+        "Charlotte, NC, US"
+      ],
+      "postedTs": 1783971468,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Technical Support Engineering",
+      "creationTs": 1783731094,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200043456",
+      "positionUrl": "/careers/job/1970393556932502",
+      "discovered_at": "2026-07-13T20:36:19.249830"
     }
   ],
-  "last_updated": "2026-07-13T19:09:01.603561",
-  "total_jobs": 146
+  "last_updated": "2026-07-13T20:36:19.249832",
+  "total_jobs": 148
 }

@@ -3437,8 +3437,30 @@
       "atsJobId": "200042229",
       "positionUrl": "/careers/job/1970393556923935",
       "discovered_at": "2026-07-16T16:49:06.908168"
+    },
+    {
+      "id": 1970393556938201,
+      "displayJobId": "200043786",
+      "name": "Silicon Engineer",
+      "locations": [
+        "United States, North Carolina, Raleigh"
+      ],
+      "standardizedLocations": [
+        "Raleigh, NC, US"
+      ],
+      "postedTs": 1784243286,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Silicon Engineering",
+      "creationTs": 1784064737,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200043786",
+      "positionUrl": "/careers/job/1970393556938201",
+      "discovered_at": "2026-07-16T23:46:56.654674"
     }
   ],
-  "last_updated": "2026-07-16T16:49:06.908174",
-  "total_jobs": 153
+  "last_updated": "2026-07-16T23:46:56.654683",
+  "total_jobs": 154
 }

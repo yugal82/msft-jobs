@@ -3459,8 +3459,30 @@
       "atsJobId": "200043786",
       "positionUrl": "/careers/job/1970393556938201",
       "discovered_at": "2026-07-16T23:46:56.654674"
+    },
+    {
+      "id": 1970393556939007,
+      "displayJobId": "200044101",
+      "name": "Software Engineer- Manufacturing & Sourcing",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1784310980,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1784157218,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200044101",
+      "positionUrl": "/careers/job/1970393556939007",
+      "discovered_at": "2026-07-20T16:57:06.107913"
     }
   ],
-  "last_updated": "2026-07-16T23:46:56.654683",
-  "total_jobs": 154
+  "last_updated": "2026-07-20T16:57:06.107919",
+  "total_jobs": 155
 }

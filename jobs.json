@@ -3481,8 +3481,30 @@
       "atsJobId": "200044101",
       "positionUrl": "/careers/job/1970393556939007",
       "discovered_at": "2026-07-20T16:57:06.107913"
+    },
+    {
+      "id": 1970393556937301,
+      "displayJobId": "200043566",
+      "name": "Software Engineer II - Finance Data & Experiences",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1784660099,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1783978621,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200043566",
+      "positionUrl": "/careers/job/1970393556937301",
+      "discovered_at": "2026-07-21T20:11:38.112119"
     }
   ],
-  "last_updated": "2026-07-20T16:57:06.107919",
-  "total_jobs": 155
+  "last_updated": "2026-07-21T20:11:38.112125",
+  "total_jobs": 156
 }

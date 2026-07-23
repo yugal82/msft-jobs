@@ -3569,8 +3569,30 @@
       "atsJobId": "200044399",
       "positionUrl": "/careers/job/1970393556940367",
       "discovered_at": "2026-07-22T22:51:47.662387"
+    },
+    {
+      "id": 1970393556941610,
+      "displayJobId": "200044688",
+      "name": "Software Engineer-II - Azure Core Storage",
+      "locations": [
+        "United States, Multiple Locations, Multiple Locations"
+      ],
+      "standardizedLocations": [
+        "US"
+      ],
+      "postedTs": 1784748264,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1784591258,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200044688",
+      "positionUrl": "/careers/job/1970393556941610",
+      "discovered_at": "2026-07-23T18:41:44.263674"
     }
   ],
-  "last_updated": "2026-07-22T22:51:47.662391",
-  "total_jobs": 159
+  "last_updated": "2026-07-23T18:41:44.263682",
+  "total_jobs": 160
 }

@@ -3613,8 +3613,34 @@
       "atsJobId": "200045653",
       "positionUrl": "/careers/job/1970393556945480",
       "discovered_at": "2026-07-27T22:49:19.749535"
+    },
+    {
+      "id": 1970393556945500,
+      "displayJobId": "200045667",
+      "name": "Firmware Engineer",
+      "locations": [
+        "United States, Washington, Redmond",
+        "United States, North Carolina, Raleigh",
+        "United States, California, Sunnyvale"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US",
+        "Raleigh, NC, US",
+        "Sunnyvale, CA, US"
+      ],
+      "postedTs": 1785355425,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Firmware Engineering",
+      "creationTs": 1785185370,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200045667",
+      "positionUrl": "/careers/job/1970393556945500",
+      "discovered_at": "2026-07-29T20:41:34.297808"
     }
   ],
-  "last_updated": "2026-07-27T22:49:19.749539",
-  "total_jobs": 161
+  "last_updated": "2026-07-29T20:41:34.297815",
+  "total_jobs": 162
 }

@@ -3661,8 +3661,30 @@
       "atsJobId": "200045664",
       "positionUrl": "/careers/job/1970393556945499",
       "discovered_at": "2026-07-30T22:55:01.550120"
+    },
+    {
+      "id": 1970393556945539,
+      "displayJobId": "200045686",
+      "name": "Hardware Engineer",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1785786000,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Hardware Engineering",
+      "creationTs": 1785192270,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200045686",
+      "positionUrl": "/careers/job/1970393556945539",
+      "discovered_at": "2026-08-03T20:40:48.808024"
     }
   ],
-  "last_updated": "2026-07-30T22:55:01.550125",
-  "total_jobs": 163
+  "last_updated": "2026-08-03T20:40:48.808031",
+  "total_jobs": 164
 }

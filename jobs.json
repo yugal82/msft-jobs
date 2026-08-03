@@ -3683,8 +3683,30 @@
       "atsJobId": "200045686",
       "positionUrl": "/careers/job/1970393556945539",
       "discovered_at": "2026-08-03T20:40:48.808024"
+    },
+    {
+      "id": 1970393556952726,
+      "displayJobId": "200046336",
+      "name": "Firmware Engineer",
+      "locations": [
+        "United States, California, Mountain View"
+      ],
+      "standardizedLocations": [
+        "Mountain View, CA, US"
+      ],
+      "postedTs": 1785797051,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Firmware Engineering",
+      "creationTs": 1785443929,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200046336",
+      "positionUrl": "/careers/job/1970393556952726",
+      "discovered_at": "2026-08-03T23:58:30.844316"
     }
   ],
-  "last_updated": "2026-08-03T20:40:48.808031",
-  "total_jobs": 164
+  "last_updated": "2026-08-03T23:58:30.844321",
+  "total_jobs": 165
 }

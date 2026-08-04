@@ -3793,8 +3793,30 @@
       "atsJobId": "200042195",
       "positionUrl": "/careers/job/1970393556922922",
       "discovered_at": "2026-08-04T17:13:18.247859"
+    },
+    {
+      "id": 1970393556953750,
+      "displayJobId": "200046519",
+      "name": "Software Quality Engineer II - Azure Storage",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1785881476,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1785533108,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200046519",
+      "positionUrl": "/careers/job/1970393556953750",
+      "discovered_at": "2026-08-04T23:29:09.415148"
     }
   ],
-  "last_updated": "2026-08-04T17:13:18.247860",
-  "total_jobs": 169
+  "last_updated": "2026-08-04T23:29:09.415155",
+  "total_jobs": 170
 }

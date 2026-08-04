@@ -3705,8 +3705,96 @@
       "atsJobId": "200046336",
       "positionUrl": "/careers/job/1970393556952726",
       "discovered_at": "2026-08-03T23:58:30.844316"
+    },
+    {
+      "id": 1970393556922930,
+      "displayJobId": "200042199",
+      "name": "Software Engineer: Security & Identity Intern Opportunities for University Students, Redmond",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1785805605,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1782938412,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200042199",
+      "positionUrl": "/careers/job/1970393556922930",
+      "discovered_at": "2026-08-04T17:13:18.247852"
+    },
+    {
+      "id": 1970393556922923,
+      "displayJobId": "200042196",
+      "name": "Software Engineer: Cloud & Distributed Backend Intern Opportunities for University Students, Redmond",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1785805533,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1782938154,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200042196",
+      "positionUrl": "/careers/job/1970393556922923",
+      "discovered_at": "2026-08-04T17:13:18.247857"
+    },
+    {
+      "id": 1970393556922929,
+      "displayJobId": "200042197",
+      "name": "Software Engineer: AI/ML & LLM Intern Opportunities for University Students, Redmond",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1785805569,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1782938291,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200042197",
+      "positionUrl": "/careers/job/1970393556922929",
+      "discovered_at": "2026-08-04T17:13:18.247858"
+    },
+    {
+      "id": 1970393556922922,
+      "displayJobId": "200042195",
+      "name": "Software Engineer: Fullstack Product (Web + Services)  Intern Opportunities for University Students,",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1785805499,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1782937949,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200042195",
+      "positionUrl": "/careers/job/1970393556922922",
+      "discovered_at": "2026-08-04T17:13:18.247859"
     }
   ],
-  "last_updated": "2026-08-03T23:58:30.844321",
-  "total_jobs": 165
+  "last_updated": "2026-08-04T17:13:18.247860",
+  "total_jobs": 169
 }

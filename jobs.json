@@ -3837,8 +3837,52 @@
       "atsJobId": "200045485",
       "positionUrl": "/careers/job/1970393556944958",
       "discovered_at": "2026-08-10T16:23:28.932371"
+    },
+    {
+      "id": 1970393556866699,
+      "displayJobId": "200037425",
+      "name": "Member of Technical Staff, Microsoft Robotics (Robot Learning)",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1780075873,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1778682971,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200037425",
+      "positionUrl": "/careers/job/1970393556866699",
+      "discovered_at": "2026-08-11T16:24:17.850305"
+    },
+    {
+      "id": 1970393556649491,
+      "displayJobId": "200017384",
+      "name": "Software Engineer II",
+      "locations": [
+        "United States, Multiple Locations, Multiple Locations"
+      ],
+      "standardizedLocations": [
+        "US"
+      ],
+      "postedTs": 1767816286,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1765995572,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200017384",
+      "positionUrl": "/careers/job/1970393556649491",
+      "discovered_at": "2026-08-11T16:24:17.850320"
     }
   ],
-  "last_updated": "2026-08-10T16:23:28.932377",
-  "total_jobs": 171
+  "last_updated": "2026-08-11T16:24:17.850322",
+  "total_jobs": 173
 }

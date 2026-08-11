@@ -3881,8 +3881,30 @@
       "atsJobId": "200017384",
       "positionUrl": "/careers/job/1970393556649491",
       "discovered_at": "2026-08-11T16:24:17.850320"
+    },
+    {
+      "id": 1970393556924230,
+      "displayJobId": "200042299",
+      "name": "Software Engineer - Microsoft Defender for Endpoint",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1786466948,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1783003552,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200042299",
+      "positionUrl": "/careers/job/1970393556924230",
+      "discovered_at": "2026-08-11T17:46:37.012152"
     }
   ],
-  "last_updated": "2026-08-11T16:24:17.850322",
-  "total_jobs": 173
+  "last_updated": "2026-08-11T17:46:37.012157",
+  "total_jobs": 174
 }

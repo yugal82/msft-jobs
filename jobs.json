@@ -3947,8 +3947,30 @@
       "atsJobId": "200048081",
       "positionUrl": "/careers/job/1970393556960468",
       "discovered_at": "2026-08-13T18:45:22.228285"
+    },
+    {
+      "id": 1970393556960190,
+      "displayJobId": "200047854",
+      "name": "Software Engineer II - Power & Systems Validation",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1786661051,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1786387042,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200047854",
+      "positionUrl": "/careers/job/1970393556960190",
+      "discovered_at": "2026-08-14T16:24:31.990770"
     }
   ],
-  "last_updated": "2026-08-13T18:45:22.228290",
-  "total_jobs": 176
+  "last_updated": "2026-08-14T16:24:31.990774",
+  "total_jobs": 177
 }

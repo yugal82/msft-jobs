@@ -3969,8 +3969,30 @@
       "atsJobId": "200047854",
       "positionUrl": "/careers/job/1970393556960190",
       "discovered_at": "2026-08-14T16:24:31.990770"
+    },
+    {
+      "id": 1970393556940403,
+      "displayJobId": "200044423",
+      "name": "Data Scientist, Datacenter",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1786756589,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Applied Sciences",
+      "creationTs": 1784311734,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200044423",
+      "positionUrl": "/careers/job/1970393556940403",
+      "discovered_at": "2026-08-17T15:50:53.695845"
     }
   ],
-  "last_updated": "2026-08-14T16:24:31.990774",
-  "total_jobs": 177
+  "last_updated": "2026-08-17T15:50:53.695850",
+  "total_jobs": 178
 }

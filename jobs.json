@@ -79,8 +79,52 @@
       "atsJobId": "200049333",
       "positionUrl": "/careers/job/1970393556971568",
       "discovered_at": "2026-08-20T23:46:00.671020"
+    },
+    {
+      "id": 1970393556972157,
+      "displayJobId": "200049495",
+      "name": "Software Engineering IC2",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1787331244,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1787007757,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200049495",
+      "positionUrl": "/careers/job/1970393556972157",
+      "discovered_at": "2026-08-21T17:22:46.761211"
+    },
+    {
+      "id": 1970393556866179,
+      "displayJobId": "200037222",
+      "name": "Solution Engineer - AI Workforce",
+      "locations": [
+        "United States, Multiple Locations, Multiple Locations"
+      ],
+      "standardizedLocations": [
+        "US"
+      ],
+      "postedTs": 1787329384,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Solution Engineering",
+      "creationTs": 1778518597,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200037222",
+      "positionUrl": "/careers/job/1970393556866179",
+      "discovered_at": "2026-08-21T17:22:46.761216"
     }
   ],
-  "last_updated": "2026-08-20T23:46:00.671024",
-  "total_jobs": 3
+  "last_updated": "2026-08-21T17:22:46.761218",
+  "total_jobs": 5
 }

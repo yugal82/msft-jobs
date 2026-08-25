@@ -189,8 +189,44 @@
       "atsJobId": "200049102",
       "positionUrl": "/careers/job/1970393556971198",
       "discovered_at": "2026-08-24T19:50:36.732435"
+    },
+    {
+      "id": 1970393556980323,
+      "displayJobId": "200050944",
+      "name": "Customer Experience Engineer",
+      "locations": [
+        "United States, Washington, Redmond",
+        "United States, Georgia, Atlanta",
+        "United States, Texas, Dallas",
+        "United States, North Carolina, Charlotte",
+        "United States, Virginia, Reston",
+        "United States, District of Columbia, Washington D.C.",
+        "United States, Maryland, Baltimore",
+        "United States, California, Mountain View"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US",
+        "Atlanta, GA, US",
+        "Dallas, TX, US",
+        "Charlotte, NC, US",
+        "Reston, VA, US",
+        "Washington, DC, US",
+        "Baltimore, MD, US",
+        "Mountain View, CA, US"
+      ],
+      "postedTs": 1787634604,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Customer Experience Engineering",
+      "creationTs": 1787620168,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200050944",
+      "positionUrl": "/careers/job/1970393556980323",
+      "discovered_at": "2026-08-25T16:08:41.139763"
     }
   ],
-  "last_updated": "2026-08-24T19:50:36.732437",
-  "total_jobs": 8
+  "last_updated": "2026-08-25T16:08:41.139769",
+  "total_jobs": 9
 }

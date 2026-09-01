@@ -339,8 +339,30 @@
       "atsJobId": "200052301",
       "positionUrl": "/careers/job/1970393556982661",
       "discovered_at": "2026-09-01T18:44:14.023987"
+    },
+    {
+      "id": 1970393556983261,
+      "displayJobId": "200052653",
+      "name": "Construction Project Engineer",
+      "locations": [
+        "United States, Virginia, Boydton"
+      ],
+      "standardizedLocations": [
+        "Boydton, VA, US"
+      ],
+      "postedTs": 1788294931,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Construction Project Management",
+      "creationTs": 1787946219,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200052653",
+      "positionUrl": "/careers/job/1970393556983261",
+      "discovered_at": "2026-09-01T21:31:55.187308"
     }
   ],
-  "last_updated": "2026-09-01T18:44:14.023988",
-  "total_jobs": 14
+  "last_updated": "2026-09-01T21:31:55.187314",
+  "total_jobs": 15
 }

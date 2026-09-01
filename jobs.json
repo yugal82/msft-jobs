@@ -295,8 +295,52 @@
       "atsJobId": "200037472",
       "positionUrl": "/careers/job/1970393556866767",
       "discovered_at": "2026-08-31T20:59:19.060552"
+    },
+    {
+      "id": 1970393556981149,
+      "displayJobId": "200051447",
+      "name": "Software Engineer II - Data Platform & Database Systems",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1788215883,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1787681291,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200051447",
+      "positionUrl": "/careers/job/1970393556981149",
+      "discovered_at": "2026-09-01T18:44:14.023982"
+    },
+    {
+      "id": 1970393556982661,
+      "displayJobId": "200052301",
+      "name": "Software Engineer II",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1788212377,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1787860009,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200052301",
+      "positionUrl": "/careers/job/1970393556982661",
+      "discovered_at": "2026-09-01T18:44:14.023987"
     }
   ],
-  "last_updated": "2026-08-31T20:59:19.060554",
-  "total_jobs": 12
+  "last_updated": "2026-09-01T18:44:14.023988",
+  "total_jobs": 14
 }

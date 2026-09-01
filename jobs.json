@@ -361,8 +361,30 @@
       "atsJobId": "200052653",
       "positionUrl": "/careers/job/1970393556983261",
       "discovered_at": "2026-09-01T21:31:55.187308"
+    },
+    {
+      "id": 1970393556983260,
+      "displayJobId": "200052651",
+      "name": "Construction Project Engineer",
+      "locations": [
+        "United States, North Carolina, Charlotte"
+      ],
+      "standardizedLocations": [
+        "Charlotte, NC, US"
+      ],
+      "postedTs": 1788304313,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Construction Project Management",
+      "creationTs": 1787945878,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200052651",
+      "positionUrl": "/careers/job/1970393556983260",
+      "discovered_at": "2026-09-01T23:38:53.335300"
     }
   ],
-  "last_updated": "2026-09-01T21:31:55.187314",
-  "total_jobs": 15
+  "last_updated": "2026-09-01T23:38:53.335306",
+  "total_jobs": 16
 }

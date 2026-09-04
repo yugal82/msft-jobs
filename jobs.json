@@ -383,8 +383,56 @@
       "atsJobId": "200052651",
       "positionUrl": "/careers/job/1970393556983260",
       "discovered_at": "2026-09-01T23:38:53.335300"
+    },
+    {
+      "id": 1970393556986124,
+      "displayJobId": "200053313",
+      "name": "Software Engineer 2",
+      "locations": [
+        "United States, Washington, Redmond",
+        "United States, California, Mountain View",
+        "United States, New York, New York"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US",
+        "Mountain View, CA, US",
+        "New York, NY, US"
+      ],
+      "postedTs": 1788537935,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1788369078,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200053313",
+      "positionUrl": "/careers/job/1970393556986124",
+      "discovered_at": "2026-09-04T18:31:52.407352"
+    },
+    {
+      "id": 1970393556984128,
+      "displayJobId": "200052840",
+      "name": "Software Engineer II",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1788475572,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1788201922,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200052840",
+      "positionUrl": "/careers/job/1970393556984128",
+      "discovered_at": "2026-09-04T18:31:52.407356"
     }
   ],
-  "last_updated": "2026-09-01T23:38:53.335306",
-  "total_jobs": 16
+  "last_updated": "2026-09-04T18:31:52.407358",
+  "total_jobs": 18
 }

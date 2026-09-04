@@ -431,8 +431,30 @@
       "atsJobId": "200052840",
       "positionUrl": "/careers/job/1970393556984128",
       "discovered_at": "2026-09-04T18:31:52.407356"
+    },
+    {
+      "id": 1970393556986780,
+      "displayJobId": "200053406",
+      "name": "Senior Software Engineer",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1788555892,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1788384469,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200053406",
+      "positionUrl": "/careers/job/1970393556986780",
+      "discovered_at": "2026-09-04T23:06:31.568174"
     }
   ],
-  "last_updated": "2026-09-04T18:31:52.407358",
-  "total_jobs": 18
+  "last_updated": "2026-09-04T23:06:31.568187",
+  "total_jobs": 19
 }

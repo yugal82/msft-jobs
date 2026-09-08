@@ -453,8 +453,30 @@
       "atsJobId": "200053406",
       "positionUrl": "/careers/job/1970393556986780",
       "discovered_at": "2026-09-04T23:06:31.568174"
+    },
+    {
+      "id": 1970393556985572,
+      "displayJobId": "200053268",
+      "name": "Software Engineer UX",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1788887558,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1788357032,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200053268",
+      "positionUrl": "/careers/job/1970393556985572",
+      "discovered_at": "2026-09-08T18:54:48.445453"
     }
   ],
-  "last_updated": "2026-09-04T23:06:31.568187",
-  "total_jobs": 19
+  "last_updated": "2026-09-08T18:54:48.445458",
+  "total_jobs": 20
 }

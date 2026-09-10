@@ -497,8 +497,30 @@
       "atsJobId": "200053775",
       "positionUrl": "/careers/job/1970393556988778",
       "discovered_at": "2026-09-09T23:22:30.483050"
+    },
+    {
+      "id": 1970393556982925,
+      "displayJobId": "200052446",
+      "name": "Software Engineer Intune",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1788986917,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1787916226,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200052446",
+      "positionUrl": "/careers/job/1970393556982925",
+      "discovered_at": "2026-09-10T18:37:52.158119"
     }
   ],
-  "last_updated": "2026-09-09T23:22:30.483052",
-  "total_jobs": 21
+  "last_updated": "2026-09-10T18:37:52.158124",
+  "total_jobs": 22
 }

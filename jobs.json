@@ -519,8 +519,52 @@
       "atsJobId": "200052446",
       "positionUrl": "/careers/job/1970393556982925",
       "discovered_at": "2026-09-10T18:37:52.158119"
+    },
+    {
+      "id": 1970393556986820,
+      "displayJobId": "200053436",
+      "name": "Critical Environment Industrial Control Systems Engineer",
+      "locations": [
+        "United States, North Carolina, Charlotte"
+      ],
+      "standardizedLocations": [
+        "Charlotte, NC, US"
+      ],
+      "postedTs": 1789069724,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Service Engineering",
+      "creationTs": 1788391910,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200053436",
+      "positionUrl": "/careers/job/1970393556986820",
+      "discovered_at": "2026-09-10T21:17:05.948207"
+    },
+    {
+      "id": 1970393556988083,
+      "displayJobId": "200053586",
+      "name": "Quality & Reliability Engineer",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1789066609,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Reliability Engineering",
+      "creationTs": 1788453725,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200053586",
+      "positionUrl": "/careers/job/1970393556988083",
+      "discovered_at": "2026-09-10T21:17:05.948211"
     }
   ],
-  "last_updated": "2026-09-10T18:37:52.158124",
-  "total_jobs": 22
+  "last_updated": "2026-09-10T21:17:05.948213",
+  "total_jobs": 24
 }

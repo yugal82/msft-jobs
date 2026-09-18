@@ -635,8 +635,30 @@
       "atsJobId": "200055886",
       "positionUrl": "/careers/job/1970393556999153",
       "discovered_at": "2026-09-18T21:20:33.309586"
+    },
+    {
+      "id": 1970393556986144,
+      "displayJobId": "200053347",
+      "name": "Software Engineer: AI Experiences Search",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1789766550,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1788372598,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200053347",
+      "positionUrl": "/careers/job/1970393556986144",
+      "discovered_at": "2026-09-18T23:24:03.730357"
     }
   ],
-  "last_updated": "2026-09-18T21:20:33.309587",
-  "total_jobs": 27
+  "last_updated": "2026-09-18T23:24:03.730363",
+  "total_jobs": 28
 }

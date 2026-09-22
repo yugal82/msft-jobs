@@ -657,8 +657,52 @@
       "atsJobId": "200053347",
       "positionUrl": "/careers/job/1970393556986144",
       "discovered_at": "2026-09-18T23:24:03.730357"
+    },
+    {
+      "id": 1970393556999268,
+      "displayJobId": "200055937",
+      "name": "Principal Software Engineer - VS Code (GitHub - CoreAI)",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1790097271,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1789499698,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200055937",
+      "positionUrl": "/careers/job/1970393556999268",
+      "discovered_at": "2026-09-22T19:02:20.391399"
+    },
+    {
+      "id": 1970393556962504,
+      "displayJobId": "200048887",
+      "name": "Software Engineering IC2",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1790093461,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1786621994,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200048887",
+      "positionUrl": "/careers/job/1970393556962504",
+      "discovered_at": "2026-09-22T19:02:20.391403"
     }
   ],
-  "last_updated": "2026-09-18T23:24:03.730363",
-  "total_jobs": 28
+  "last_updated": "2026-09-22T19:02:20.391404",
+  "total_jobs": 30
 }

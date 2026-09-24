@@ -701,8 +701,80 @@
       "atsJobId": "200048887",
       "positionUrl": "/careers/job/1970393556962504",
       "discovered_at": "2026-09-22T19:02:20.391403"
+    },
+    {
+      "id": 1970393557004929,
+      "displayJobId": "200057383",
+      "name": "Security Engineer",
+      "locations": [
+        "United States, Multiple Locations, Multiple Locations"
+      ],
+      "standardizedLocations": [
+        "US"
+      ],
+      "postedTs": 1790271265,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Penetration Testing",
+      "creationTs": 1790034449,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200057383",
+      "positionUrl": "/careers/job/1970393557004929",
+      "discovered_at": "2026-09-24T19:26:00.238824"
+    },
+    {
+      "id": 1970393556999328,
+      "displayJobId": "200055970",
+      "name": "Software Engineer II - CTJ- POLY",
+      "locations": [
+        "United States, Washington, Redmond",
+        "United States, Virginia, Reston",
+        "United States, Maryland, Annapolis Junction"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US",
+        "Reston, VA, US",
+        "MD,US"
+      ],
+      "postedTs": 1790122300,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1789509183,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200055970",
+      "positionUrl": "/careers/job/1970393556999328",
+      "discovered_at": "2026-09-24T19:26:00.238831"
+    },
+    {
+      "id": 1970393556986674,
+      "displayJobId": "200053374",
+      "name": "Senior Software Engineer",
+      "locations": [
+        "United States, Washington, Redmond",
+        "United States, Georgia, Atlanta"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US",
+        "Atlanta, GA, US"
+      ],
+      "postedTs": 1790117647,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1788378209,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200053374",
+      "positionUrl": "/careers/job/1970393556986674",
+      "discovered_at": "2026-09-24T19:26:00.238834"
     }
   ],
-  "last_updated": "2026-09-22T19:02:20.391404",
-  "total_jobs": 30
+  "last_updated": "2026-09-24T19:26:00.238837",
+  "total_jobs": 33
 }

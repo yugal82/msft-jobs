@@ -773,8 +773,32 @@
       "atsJobId": "200053374",
       "positionUrl": "/careers/job/1970393556986674",
       "discovered_at": "2026-09-24T19:26:00.238834"
+    },
+    {
+      "id": 1970393556999388,
+      "displayJobId": "200056007",
+      "name": "Fiber Delivery Engineer",
+      "locations": [
+        "United States, Multiple Locations, Multiple Locations",
+        "United States, Arizona, Phoenix"
+      ],
+      "standardizedLocations": [
+        "US",
+        "Phoenix, AZ, US"
+      ],
+      "postedTs": 1790281034,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Technical Program Management",
+      "creationTs": 1789515340,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200056007",
+      "positionUrl": "/careers/job/1970393556999388",
+      "discovered_at": "2026-09-25T19:39:50.879855"
     }
   ],
-  "last_updated": "2026-09-24T19:26:00.238837",
-  "total_jobs": 33
+  "last_updated": "2026-09-25T19:39:50.879862",
+  "total_jobs": 34
 }

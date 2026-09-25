@@ -797,8 +797,32 @@
       "atsJobId": "200056007",
       "positionUrl": "/careers/job/1970393556999388",
       "discovered_at": "2026-09-25T19:39:50.879855"
+    },
+    {
+      "id": 1970393556999992,
+      "displayJobId": "200056180",
+      "name": "Firmware Engineer",
+      "locations": [
+        "United States, Washington, Redmond",
+        "United States, California, Mountain View"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US",
+        "Mountain View, CA, US"
+      ],
+      "postedTs": 1790374263,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Firmware Engineering",
+      "creationTs": 1789582013,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200056180",
+      "positionUrl": "/careers/job/1970393556999992",
+      "discovered_at": "2026-09-25T22:54:45.798408"
     }
   ],
-  "last_updated": "2026-09-25T19:39:50.879862",
-  "total_jobs": 34
+  "last_updated": "2026-09-25T22:54:45.798412",
+  "total_jobs": 35
 }

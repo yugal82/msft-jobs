@@ -821,8 +821,58 @@
       "atsJobId": "200056180",
       "positionUrl": "/careers/job/1970393556999992",
       "discovered_at": "2026-09-25T22:54:45.798408"
+    },
+    {
+      "id": 1970393557008566,
+      "displayJobId": "200058252",
+      "name": "Software Engineer",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1790702928,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1790354410,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200058252",
+      "positionUrl": "/careers/job/1970393557008566",
+      "discovered_at": "2026-09-29T20:09:17.332096"
+    },
+    {
+      "id": 1970393556999391,
+      "displayJobId": "200056006",
+      "name": "Fiber Delivery Engineer",
+      "locations": [
+        "United States, Multiple Locations, Multiple Locations",
+        "United States, Washington, Redmond",
+        "United States, California, San Francisco",
+        "United States, Arizona, Phoenix"
+      ],
+      "standardizedLocations": [
+        "US",
+        "Redmond, WA, US",
+        "San Francisco, CA, US",
+        "Phoenix, AZ, US"
+      ],
+      "postedTs": 1790698237,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Technical Program Management",
+      "creationTs": 1789515339,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200056006",
+      "positionUrl": "/careers/job/1970393556999391",
+      "discovered_at": "2026-09-29T20:09:17.332103"
     }
   ],
-  "last_updated": "2026-09-25T22:54:45.798412",
-  "total_jobs": 35
+  "last_updated": "2026-09-29T20:09:17.332105",
+  "total_jobs": 37
 }

@@ -949,8 +949,142 @@
       "atsJobId": "200053852",
       "positionUrl": "/careers/job/1970393556989020",
       "discovered_at": "2026-10-02T20:13:37.299059"
+    },
+    {
+      "id": 1970393557023035,
+      "displayJobId": "200059565",
+      "name": "Software Engineering",
+      "locations": [
+        "United States, Multiple Locations, Multiple Locations"
+      ],
+      "standardizedLocations": [
+        "US"
+      ],
+      "postedTs": 1791232644,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1790959232,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200059565",
+      "positionUrl": "/careers/job/1970393557023035",
+      "discovered_at": "2026-10-05T22:14:05.900983"
+    },
+    {
+      "id": 1970393557023157,
+      "displayJobId": "200059631",
+      "name": "Data Center Technician",
+      "locations": [
+        "United States, Washington, Wenatchee",
+        "United States, Washington, Malaga"
+      ],
+      "standardizedLocations": [
+        "Wenatchee, WA, US",
+        "Malaga, WA, US"
+      ],
+      "postedTs": 1790978966,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Data Center Technicians",
+      "creationTs": 1790973751,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200059631",
+      "positionUrl": "/careers/job/1970393557023157",
+      "discovered_at": "2026-10-05T22:14:05.900988"
+    },
+    {
+      "id": 1970393557022445,
+      "displayJobId": "200059321",
+      "name": "Security Engineer - Red Team",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1790973288,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Penetration Testing",
+      "creationTs": 1790874343,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200059321",
+      "positionUrl": "/careers/job/1970393557022445",
+      "discovered_at": "2026-10-05T22:14:05.900994"
+    },
+    {
+      "id": 1970393557016400,
+      "displayJobId": "200058558",
+      "name": "Software Engineer",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1790966153,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1790627453,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200058558",
+      "positionUrl": "/careers/job/1970393557016400",
+      "discovered_at": "2026-10-05T22:14:05.900995"
+    },
+    {
+      "id": 1970393557022395,
+      "displayJobId": "200059311",
+      "name": "Software Engineer",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1790890930,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1790872373,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200059311",
+      "positionUrl": "/careers/job/1970393557022395",
+      "discovered_at": "2026-10-05T22:14:05.900996"
+    },
+    {
+      "id": 1970393557004814,
+      "displayJobId": "200057324",
+      "name": "Software Engineer - Forward Deployed Engineer",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1790875339,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1790022203,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200057324",
+      "positionUrl": "/careers/job/1970393557004814",
+      "discovered_at": "2026-10-05T22:14:05.900997"
     }
   ],
-  "last_updated": "2026-10-02T20:13:37.299060",
-  "total_jobs": 40
+  "last_updated": "2026-10-05T22:14:05.900998",
+  "total_jobs": 46
 }

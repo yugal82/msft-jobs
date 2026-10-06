@@ -1083,8 +1083,52 @@
       "atsJobId": "200057324",
       "positionUrl": "/careers/job/1970393557004814",
       "discovered_at": "2026-10-05T22:14:05.900997"
+    },
+    {
+      "id": 1970393557015224,
+      "displayJobId": "200058506",
+      "name": "Software Engineer II",
+      "locations": [
+        "United States, Multiple Locations, Multiple Locations"
+      ],
+      "standardizedLocations": [
+        "US"
+      ],
+      "postedTs": 1791306771,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1790618690,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200058506",
+      "positionUrl": "/careers/job/1970393557015224",
+      "discovered_at": "2026-10-06T20:29:14.721164"
+    },
+    {
+      "id": 1970393557022479,
+      "displayJobId": "200059341",
+      "name": "Software Engineer II - MBO",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1791238504,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1790878712,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200059341",
+      "positionUrl": "/careers/job/1970393557022479",
+      "discovered_at": "2026-10-06T20:29:14.721169"
     }
   ],
-  "last_updated": "2026-10-05T22:14:05.900998",
-  "total_jobs": 46
+  "last_updated": "2026-10-06T20:29:14.721170",
+  "total_jobs": 48
 }

@@ -1127,8 +1127,52 @@
       "atsJobId": "200059341",
       "positionUrl": "/careers/job/1970393557022479",
       "discovered_at": "2026-10-06T20:29:14.721169"
+    },
+    {
+      "id": 1970393557021555,
+      "displayJobId": "200059098",
+      "name": "Software Engineer II",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1791331375,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1790790032,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200059098",
+      "positionUrl": "/careers/job/1970393557021555",
+      "discovered_at": "2026-10-07T20:43:38.182252"
+    },
+    {
+      "id": 1970393557022500,
+      "displayJobId": "200059353",
+      "name": "Security Research Engineer - Project Perception",
+      "locations": [
+        "United States, Multiple Locations, Multiple Locations"
+      ],
+      "standardizedLocations": [
+        "US"
+      ],
+      "postedTs": 1790901217,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Security Research",
+      "creationTs": 1790880910,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200059353",
+      "positionUrl": "/careers/job/1970393557022500",
+      "discovered_at": "2026-10-07T20:43:38.182259"
     }
   ],
-  "last_updated": "2026-10-06T20:29:14.721170",
-  "total_jobs": 48
+  "last_updated": "2026-10-07T20:43:38.182262",
+  "total_jobs": 50
 }

@@ -1193,8 +1193,52 @@
       "atsJobId": "200060983",
       "positionUrl": "/careers/job/1970393557027422",
       "discovered_at": "2026-10-09T20:15:36.776095"
+    },
+    {
+      "id": 1970393557023170,
+      "displayJobId": "200059636",
+      "name": "Software Engineer",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1791833908,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1790974718,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200059636",
+      "positionUrl": "/careers/job/1970393557023170",
+      "discovered_at": "2026-10-12T22:33:01.869976"
+    },
+    {
+      "id": 1970393557037856,
+      "displayJobId": "200061277",
+      "name": "Cloud Network Engineering Internship Oportunities",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1791827281,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Cloud Network Engineering",
+      "creationTs": 1791582952,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200061277",
+      "positionUrl": "/careers/job/1970393557037856",
+      "discovered_at": "2026-10-12T22:33:01.869981"
     }
   ],
-  "last_updated": "2026-10-09T20:15:36.776100",
-  "total_jobs": 51
+  "last_updated": "2026-10-12T22:33:01.869982",
+  "total_jobs": 53
 }

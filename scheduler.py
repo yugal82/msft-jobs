@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Scheduler for running the scraper every 15 minutes during business hours.
-Runs Monday-Friday, 8:30 AM - 5:00 PM.
+Scheduler for running the scraper every 30 minutes during business hours.
+Runs Monday-Friday, 8:30 AM - 5:00 PM (local machine time).
 """
 
 import time
@@ -34,7 +34,7 @@ def is_business_hours() -> bool:
     start_time = dt_time(BUSINESS_START_HOUR, BUSINESS_START_MINUTE)
     end_time = dt_time(BUSINESS_END_HOUR, BUSINESS_END_MINUTE)
     
-    return start_time <= current_time < end_time
+    return start_time <= current_time <= end_time
 
 
 def run_scraper():
@@ -59,7 +59,7 @@ def get_next_business_time() -> datetime:
     """Calculate the next time the scraper should run."""
     now = datetime.now()
     
-    # If it's currently business hours, run in 15 minutes
+    # If it's currently business hours, run after the next interval
     if is_business_hours():
         return now.replace(second=0, microsecond=0) + timedelta(minutes=INTERVAL_MINUTES)
     
@@ -67,7 +67,7 @@ def get_next_business_time() -> datetime:
     next_run = now.replace(hour=BUSINESS_START_HOUR, minute=BUSINESS_START_MINUTE, second=0, microsecond=0)
     
     # If we've passed business hours today, start tomorrow
-    if now.time() >= dt_time(BUSINESS_END_HOUR, BUSINESS_END_MINUTE):
+    if now.time() > dt_time(BUSINESS_END_HOUR, BUSINESS_END_MINUTE):
         next_run += timedelta(days=1)
     
     # Skip weekends
@@ -81,7 +81,7 @@ def main():
     """Main scheduler loop."""
     print("Microsoft Job Scraper Scheduler")
     print("=" * 40)
-    print(f"Schedule: Monday-Friday, {BUSINESS_START_HOUR}:{BUSINESS_START_MINUTE:02d} AM - {BUSINESS_END_HOUR}:{BUSINESS_END_MINUTE:02d} PM")
+    print(f"Schedule: Monday-Friday, {BUSINESS_START_HOUR}:{BUSINESS_START_MINUTE:02d} AM - {BUSINESS_END_HOUR - 12}:{BUSINESS_END_MINUTE:02d} PM")
     print(f"Interval: Every {INTERVAL_MINUTES} minutes")
     print("Press Ctrl+C to stop.\n")
     

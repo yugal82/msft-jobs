@@ -1,88 +1,67 @@
 name: Microsoft Job Scraper
 
 on:
-  # Run every 30 minutes during business hours (Mon-Fri, 8:30 AM - 5:00 PM PST/PDT)
-  # PST (UTC-8): 8:30 AM PST = 16:30 UTC, 5:00 PM PST = 01:00 UTC (next day)
-  # PDT (UTC-7): 8:30 AM PDT = 15:30 UTC, 5:00 PM PDT = 00:00 UTC (next day)
-  # Using PDT schedule (UTC-7) - during PST it will run 1 hour later
+  # Run every 30 minutes during business hours (Mon-Fri, 8:30 AM - 5:00 PM Pacific)
+  # Cron is in UTC, so these cover the window in both PDT (UTC-7: 15:30-00:00 UTC)
+  # and PST (UTC-8: 16:30-01:00 UTC). The business-hours step skips runs outside it.
   schedule:
-    # Every 30 minutes during business hours (8:30 AM - 5:00 PM PDT)
-    # 8:30, 9:00, 9:30, 10:00, 10:30, 11:00, 11:30, 12:00, 12:30, 1:00, 1:30, 2:00, 2:30, 3:00, 3:30, 4:00, 4:30, 5:00 PM PDT
-    - cron: '30 15 * * 1-5'  # 8:30 AM PDT
-    - cron: '0,30 16-23 * * 1-5'  # 9:00 AM - 4:30 PM PDT
-    - cron: '0 0 * * 2-6'  # 5:00 PM PDT (midnight UTC, next day)
-  workflow_dispatch:  # Allow manual trigger
+    - cron: '30 15 * * 1-5'
+    - cron: '0,30 16-23 * * 1-5'
+    - cron: '0,30 0 * * 2-6'
+    - cron: '0 1 * * 2-6'
+  workflow_dispatch:  # Allow manual trigger (ignores business hours)
+
+# Never let two runs commit and push at the same time
+concurrency:
+  group: scraper
+  cancel-in-progress: false
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
     permissions:
       contents: write  # Required to commit and push
-    
+
     steps:
+    - name: Check if business hours (Pacific)
+      id: check_hours
+      run: |
+        # TZ='America/Los_Angeles' handles both PST and PDT automatically
+        DAY_OF_WEEK=$(TZ='America/Los_Angeles' date +%u)  # 1=Monday, 7=Sunday
+        HHMM=$(TZ='America/Los_Angeles' date +%H%M)
+        echo "Current Pacific time: $(TZ='America/Los_Angeles' date '+%a %H:%M')"
+
+        # 8:30 AM - 5:00 PM, plus 15 minutes of grace since GitHub often starts scheduled runs late
+        if [ "${{ github.event_name }}" = "workflow_dispatch" ] || \
+           { [ "$DAY_OF_WEEK" -le 5 ] && [ $((10#$HHMM)) -ge 830 ] && [ $((10#$HHMM)) -le 1715 ]; }; then
+          echo "inside_hours=true" >> $GITHUB_OUTPUT
+        else
+          echo "inside_hours=false" >> $GITHUB_OUTPUT
+        fi
+
     - name: Checkout repository
-      uses: actions/checkout@v4
+      if: steps.check_hours.outputs.inside_hours == 'true'
+      uses: actions/checkout@v5
       with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-        fetch-depth: 0  # Fetch all history for git operations
-    
+        fetch-depth: 0  # Full history so the scraper can rebase before pushing
+
     - name: Configure Git
+      if: steps.check_hours.outputs.inside_hours == 'true'
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-    
+
     - name: Set up Python
-      uses: actions/setup-python@v5
+      if: steps.check_hours.outputs.inside_hours == 'true'
+      uses: actions/setup-python@v6
       with:
         python-version: '3.11'
-    
+        cache: pip
+
     - name: Install dependencies
-      run: |
-        pip install requests
-    
-    - name: Check if business hours (PST/PDT)
-      id: check_hours
-      run: |
-        # Get current time in Pacific timezone
-        # TZ='America/Los_Angeles' handles both PST and PDT automatically
-        CURRENT_TIME=$(TZ='America/Los_Angeles' date +%H:%M)
-        CURRENT_HOUR=$(TZ='America/Los_Angeles' date +%H)
-        CURRENT_MINUTE=$(TZ='America/Los_Angeles' date +%M)
-        DAY_OF_WEEK=$(TZ='America/Los_Angeles' date +%u)  # 1=Monday, 7=Sunday
-        
-        echo "Current Pacific time: $CURRENT_TIME"
-        
-        # Check if weekday (1-5 = Monday-Friday)
-        if [ "$DAY_OF_WEEK" -ge 1 ] && [ "$DAY_OF_WEEK" -le 5 ]; then
-          HOUR_NUM=$((10#$CURRENT_HOUR))
-          MINUTE_NUM=$((10#$CURRENT_MINUTE))
-          
-          # Business hours: 8:30 AM - 5:00 PM Pacific Time
-          # Check if after 8:30 AM
-          if [ $HOUR_NUM -gt 8 ] || ([ $HOUR_NUM -eq 8 ] && [ $MINUTE_NUM -ge 30 ]); then
-            # Check if before 5:00 PM
-            if [ $HOUR_NUM -lt 17 ]; then
-              echo "inside_hours=true" >> $GITHUB_OUTPUT
-              echo "outside_hours=false" >> $GITHUB_OUTPUT
-            else
-              echo "inside_hours=false" >> $GITHUB_OUTPUT
-              echo "outside_hours=true" >> $GITHUB_OUTPUT
-            fi
-          else
-            echo "inside_hours=false" >> $GITHUB_OUTPUT
-            echo "outside_hours=true" >> $GITHUB_OUTPUT
-          fi
-        else
-          echo "inside_hours=false" >> $GITHUB_OUTPUT
-          echo "outside_hours=true" >> $GITHUB_OUTPUT
-        fi
-    
+      if: steps.check_hours.outputs.inside_hours == 'true'
+      run: pip install -r requirements.txt
+
     - name: Run scraper
       if: steps.check_hours.outputs.inside_hours == 'true'
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      run: |
-        # Configure git for scraper.py (it will commit and push)
-        git config --global user.email "action@github.com"
-        git config --global user.name "GitHub Action"
-        python3 scraper.py
+      run: python3 scraper.py

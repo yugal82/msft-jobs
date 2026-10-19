@@ -6,12 +6,6 @@ PLIST_FILE="$SCRIPT_DIR/com.microsoft.jobscraper.plist"
 SERVICE_NAME="com.microsoft.jobscraper"
 LAUNCHD_PATH="$HOME/Library/LaunchAgents/$SERVICE_NAME.plist"
 
-# Update plist with correct paths
-PYTHON_PATH=$(which python3)
-sed -i.bak "s|/usr/bin/python3|$PYTHON_PATH|g" "$PLIST_FILE"
-sed -i.bak "s|/Users/yugalkhanter/Desktop/Yugal Work/Projects/Microsoft Job Scraper|$SCRIPT_DIR|g" "$PLIST_FILE"
-rm -f "$PLIST_FILE.bak"
-
 if [ "$1" == "uninstall" ]; then
     echo "Uninstalling Microsoft Job Scraper service..."
     
@@ -41,8 +35,16 @@ elif [ "$1" == "status" ]; then
 else
     echo "Installing Microsoft Job Scraper service..."
     
-    # Copy plist to LaunchAgents
-    cp "$PLIST_FILE" "$LAUNCHD_PATH"
+    # Unload any previous install so the new config takes effect
+    launchctl unload "$LAUNCHD_PATH" 2>/dev/null || true
+
+    # Copy plist to LaunchAgents, filling in this machine's Python and project paths
+    # (the template in the repo is left untouched)
+    PYTHON_PATH=$(which python3)
+    mkdir -p "$HOME/Library/LaunchAgents"
+    sed -e "s|/usr/bin/python3|$PYTHON_PATH|g" \
+        -e "s|/Users/yugalkhanter/Desktop/Yugal Work/Projects/Microsoft Job Scraper|$SCRIPT_DIR|g" \
+        "$PLIST_FILE" > "$LAUNCHD_PATH"
     
     # Load the service
     launchctl load "$LAUNCHD_PATH"
@@ -51,7 +53,7 @@ else
     echo ""
     echo "The scraper will now run during business hours and automatically:"
     echo "  - Schedule: Monday-Friday, 8:30 AM - 5:00 PM"
-    echo "  - Check for new jobs every 15 minutes"
+    echo "  - Check for new jobs every 30 minutes"
     echo "  - Commit new jobs to git"
     echo "  - Push to GitHub automatically"
     echo ""

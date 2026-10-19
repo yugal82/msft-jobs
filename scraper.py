@@ -4,20 +4,49 @@ Microsoft Careers Job Scraper
 Fetches job listings from Microsoft Careers API and tracks new openings.
 """
 
+import html
 import json
 import os
-import sys
+import re
 import subprocess
-from datetime import datetime
+import sys
+import time
+from datetime import datetime, timezone
 from pathlib import Path
-from typing import Dict, List, Set
+from typing import Dict, List, Optional, Set
+
 import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 # Configuration
-API_URL = "https://apply.careers.microsoft.com/api/pcsx/search?domain=microsoft.com&query=Software%20Engineer&location=United%20States&start=0&sort_by=timestamp&filter_include_remote=1&filter_seniority=Entry"
+SEARCH_URL = "https://apply.careers.microsoft.com/api/pcsx/search"
+SEARCH_PARAMS = {
+    'domain': 'microsoft.com',
+    'query': 'Software Engineer',
+    'location': 'United States',
+    'sort_by': 'timestamp',
+    'filter_include_remote': 1,
+    'filter_seniority': 'Entry',
+}
+# Unlike the pcsx details endpoint, this one still serves postings after they close.
+JOB_DETAILS_URL = "https://apply.careers.microsoft.com/api/apply/v2/jobs/{job_id}"
 JOBS_FILE = "jobs.json"
 TRACKED_IDS_FILE = "tracked_job_ids.json"
 DATA_DIR = Path(__file__).parent
+
+MAX_PAGES = 5  # Safety cap on search pages fetched per run
+MAX_LEVEL_LOOKUPS = 20  # Job description fetches per run; the rest wait for the next run
+REQUEST_DELAY_SECONDS = 1.5  # Pause between API calls to avoid 429s
+
+# The level sits in the pay transparency sentence of the description, e.g.
+# "Software Engineering IC2 - The typical base pay range for this role ..."
+LEVEL_PATTERN = re.compile(r'(\S+)\s*[-–—]\s*The (?:typical )?base pay range', re.IGNORECASE)
+INTERNSHIP_PATTERN = re.compile(r'base pay range for this internship', re.IGNORECASE)
+
+
+def utc_now() -> datetime:
+    return datetime.now(timezone.utc)
 
 
 def load_json_file(filepath: Path) -> Dict:
@@ -38,19 +67,86 @@ def save_json_file(filepath: Path, data: Dict) -> None:
         json.dump(data, f, indent=2, ensure_ascii=False)
 
 
-def fetch_jobs() -> Dict:
-    """Fetch jobs from Microsoft Careers API."""
-    try:
-        headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
-            'Accept': 'application/json',
-        }
-        response = requests.get(API_URL, headers=headers, timeout=30)
-        response.raise_for_status()
-        return response.json()
-    except requests.RequestException as e:
-        print(f"Error fetching jobs: {e}")
-        sys.exit(1)
+def create_session() -> requests.Session:
+    """Create an HTTP session that backs off and retries on rate limits and server errors."""
+    retry = Retry(
+        total=4,
+        backoff_factor=10,  # Waits 0s, 20s, 40s, 80s between attempts
+        status_forcelist=(429, 500, 502, 503, 504),
+        allowed_methods=('GET',),
+        respect_retry_after_header=True,
+    )
+    session = requests.Session()
+    session.mount('https://', HTTPAdapter(max_retries=retry))
+    session.headers.update({
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+        'Accept': 'application/json',
+    })
+    return session
+
+
+def fetch_jobs(session: requests.Session, tracked_ids: Set[int]) -> List[Dict]:
+    """Fetch search results, paging until a page contains no unseen jobs."""
+    positions = []
+    start = 0
+    for page in range(MAX_PAGES):
+        if page > 0:
+            time.sleep(REQUEST_DELAY_SECONDS)
+        try:
+            response = session.get(SEARCH_URL, params={**SEARCH_PARAMS, 'start': start}, timeout=30)
+            response.raise_for_status()
+            data = response.json().get('data', {})
+        except requests.RequestException as e:
+            print(f"Error fetching jobs: {e}")
+            sys.exit(1)
+
+        page_positions = data.get('positions', [])
+        positions.extend(page_positions)
+        start += len(page_positions)
+
+        # Results are sorted newest first, so a fully seen page means nothing new lies beyond it
+        has_unseen = any(p.get('id') not in tracked_ids for p in page_positions)
+        if not page_positions or not has_unseen or start >= data.get('count', 0):
+            break
+
+    return positions
+
+
+def extract_level(description_html: str) -> Optional[str]:
+    """Extract the job level (e.g. "IC2", or "IC3/IC4" for multi-level postings) from a job description."""
+    text = re.sub(r'\s+', ' ', html.unescape(re.sub(r'<[^>]+>', ' ', description_html)))
+    levels = list(dict.fromkeys(LEVEL_PATTERN.findall(text)))
+    if levels:
+        return '/'.join(levels)
+    if INTERNSHIP_PATTERN.search(text):
+        return 'Intern'
+    return None
+
+
+def fetch_job_level(session: requests.Session, job_id: int) -> Optional[str]:
+    """Fetch a job's description and return its level. Raises RequestException on transient failures."""
+    response = session.get(JOB_DETAILS_URL.format(job_id=job_id), params={'domain': 'microsoft.com'}, timeout=30)
+    if response.status_code == 404:
+        return None
+    response.raise_for_status()
+    return extract_level(response.json().get('job_description') or '')
+
+
+def fill_missing_levels(session: requests.Session, jobs: List[Dict]) -> int:
+    """Set the 'level' field on jobs that don't have one yet, newest first. Returns the number updated."""
+    pending = [job for job in reversed(jobs) if 'level' not in job][:MAX_LEVEL_LOOKUPS]
+    updated = 0
+    for i, job in enumerate(pending):
+        if i > 0:
+            time.sleep(REQUEST_DELAY_SECONDS)
+        try:
+            job['level'] = fetch_job_level(session, job['id'])
+            updated += 1
+        except requests.RequestException as e:
+            # Leave 'level' unset so the next run retries this job
+            print(f"Error fetching level for job {job['id']}: {e}")
+            break
+    return updated
 
 
 def get_tracked_job_ids() -> Set[int]:
@@ -63,228 +159,126 @@ def get_tracked_job_ids() -> Set[int]:
 def save_tracked_job_ids(job_ids: Set[int]) -> None:
     """Save tracked job IDs to file."""
     tracked_file = DATA_DIR / TRACKED_IDS_FILE
-    data = {'job_ids': list(job_ids), 'last_updated': datetime.now().isoformat()}
+    data = {'job_ids': list(job_ids), 'last_updated': utc_now().isoformat(timespec='seconds')}
     save_json_file(tracked_file, data)
 
 
-def get_new_jobs(api_response: Dict, tracked_ids: Set[int]) -> List[Dict]:
+def get_new_jobs(positions: List[Dict], tracked_ids: Set[int]) -> List[Dict]:
     """Extract new jobs that haven't been tracked before."""
-    positions = api_response.get('data', {}).get('positions', [])
     new_jobs = []
-    
+    seen = set(tracked_ids)
+
     for position in positions:
         job_id = position.get('id')
-        if job_id and job_id not in tracked_ids:
+        if job_id and job_id not in seen:
             new_jobs.append(position)
-    
+            seen.add(job_id)
+
     return new_jobs
 
 
-def update_jobs_file(new_jobs: List[Dict]) -> bool:
-    """Add new jobs to the jobs.json file."""
-    jobs_file = DATA_DIR / JOBS_FILE
-    all_jobs = load_json_file(jobs_file)
-    
-    # Initialize structure if needed
-    if 'jobs' not in all_jobs:
-        all_jobs['jobs'] = []
-    
-    # Add new jobs with timestamp
-    for job in new_jobs:
-        job_entry = {
-            **job,
-            'discovered_at': datetime.now().isoformat()
-        }
-        all_jobs['jobs'].append(job_entry)
-    
-    # Update metadata
-    all_jobs['last_updated'] = datetime.now().isoformat()
+def save_jobs_file(all_jobs: Dict) -> None:
+    """Write the jobs file with refreshed metadata."""
+    all_jobs['last_updated'] = utc_now().isoformat(timespec='seconds')
     all_jobs['total_jobs'] = len(all_jobs['jobs'])
-    
-    save_json_file(jobs_file, all_jobs)
-    return len(new_jobs) > 0
+    save_json_file(DATA_DIR / JOBS_FILE, all_jobs)
 
 
 def commit_to_git(message: str) -> bool:
-    """Commit changes to git repository."""
-    try:
-        # Check if git repo exists
-        git_dir = DATA_DIR / '.git'
-        if not git_dir.exists():
-            print("Initializing git repository...")
-            subprocess.run(['git', 'init'], cwd=DATA_DIR, check=True)
-            # Create .gitignore if it doesn't exist
-            gitignore = DATA_DIR / '.gitignore'
-            if not gitignore.exists():
-                with open(gitignore, 'w') as f:
-                    f.write("__pycache__/\n*.pyc\n.env\n")
-        
-        # Stage all changes
-        subprocess.run(
-            ['git', 'add', '-A'],
-            cwd=DATA_DIR,
-            check=True
-        )
-        
-        # Check if there are changes to commit
-        result = subprocess.run(
-            ['git', 'diff', '--cached', '--quiet'],
-            cwd=DATA_DIR,
-            capture_output=True
-        )
-        
-        if result.returncode == 0:
-            print("No changes to commit.")
-            return False
-        
-        # Commit changes
-        subprocess.run(
-            ['git', 'commit', '-m', message],
-            cwd=DATA_DIR,
-            check=True
-        )
-        
-        print(f"Successfully committed: {message}")
-        return True
-        
-    except subprocess.CalledProcessError as e:
-        print(f"Error committing to git: {e}")
-        return False
-    except FileNotFoundError:
-        print("Git is not installed. Skipping git commit.")
+    """Commit the data files. Returns False if there was nothing to commit; raises CalledProcessError on failure."""
+    subprocess.run(['git', 'add', JOBS_FILE, TRACKED_IDS_FILE], cwd=DATA_DIR, check=True)
+
+    # Check if there are changes to commit
+    result = subprocess.run(['git', 'diff', '--cached', '--quiet'], cwd=DATA_DIR)
+    if result.returncode == 0:
+        print("No changes to commit.")
         return False
 
+    subprocess.run(['git', 'commit', '-m', message], cwd=DATA_DIR, check=True)
+    print(f"Successfully committed: {message}")
+    return True
 
-def push_to_github(branch: str = 'main') -> bool:
-    """Push commits to GitHub repository."""
-    try:
-        # Check if remote exists
-        result = subprocess.run(
-            ['git', 'remote', '-v'],
-            cwd=DATA_DIR,
-            capture_output=True,
-            text=True
-        )
-        
-        if not result.stdout.strip():
-            print("No remote repository configured. Skipping push.")
-            return False
-        
-        # In GitHub Actions, use GITHUB_TOKEN if available
-        github_token = os.environ.get('GITHUB_TOKEN')
-        if github_token:
-            # Update remote URL to use token for authentication
-            remote_url = subprocess.run(
-                ['git', 'remote', 'get-url', 'origin'],
-                cwd=DATA_DIR,
-                capture_output=True,
-                text=True
-            ).stdout.strip()
-            
-            if remote_url and 'github.com' in remote_url:
-                # Convert HTTPS URL to use token
-                if remote_url.startswith('https://'):
-                    # Extract repo path
-                    repo_path = remote_url.replace('https://', '').replace('https://github.com/', '')
-                    if not repo_path.startswith('github.com/'):
-                        auth_url = f'https://{github_token}@github.com/{repo_path}'
-                        subprocess.run(
-                            ['git', 'remote', 'set-url', 'origin', auth_url],
-                            cwd=DATA_DIR,
-                            check=True
-                        )
-        
-        # Check if there are commits to push
-        result = subprocess.run(
-            ['git', 'rev-list', '--count', f'origin/{branch}..HEAD'],
-            cwd=DATA_DIR,
-            capture_output=True,
-            text=True
-        )
-        
-        # If command fails, might be first push or branch doesn't exist remotely
-        if result.returncode != 0:
-            # Try to push and set upstream
-            print(f"Pushing to GitHub (first push or setting upstream)...")
-            subprocess.run(
-                ['git', 'push', '-u', 'origin', branch],
-                cwd=DATA_DIR,
-                check=True,
-                env={**os.environ, 'GIT_TERMINAL_PROMPT': '0'}
-            )
-            print(f"Successfully pushed to GitHub: {branch}")
-            return True
-        
-        commits_ahead = int(result.stdout.strip())
-        if commits_ahead == 0:
-            print("No new commits to push.")
-            return False
-        
-        # Push to GitHub
-        print(f"Pushing {commits_ahead} commit(s) to GitHub...")
-        subprocess.run(
-            ['git', 'push', 'origin', branch],
-            cwd=DATA_DIR,
-            check=True,
-            env={**os.environ, 'GIT_TERMINAL_PROMPT': '0'}
-        )
-        print(f"Successfully pushed to GitHub: {branch}")
-        return True
-        
-    except subprocess.CalledProcessError as e:
-        print(f"Error pushing to GitHub: {e}")
-        # Check if it's an authentication issue
-        if 'Authentication failed' in str(e) or 'Permission denied' in str(e):
-            print("GitHub authentication failed. Please ensure:")
-            print("  1. You have configured git credentials")
-            print("  2. You have push access to the repository")
-            print("  3. Consider using a Personal Access Token (PAT)")
-        return False
-    except FileNotFoundError:
-        print("Git is not installed. Skipping git push.")
-        return False
+
+def push_to_github(branch: str = 'main') -> None:
+    """Rebase onto the remote branch and push. Raises CalledProcessError on failure."""
+    result = subprocess.run(['git', 'remote'], cwd=DATA_DIR, capture_output=True, text=True)
+    if 'origin' not in result.stdout.split():
+        print("No 'origin' remote configured. Skipping push.")
+        return
+
+    # Another runner (cloud or local) may have pushed since we last pulled
+    env = {**os.environ, 'GIT_TERMINAL_PROMPT': '0'}
+    pull = subprocess.run(['git', 'pull', '--rebase', 'origin', branch], cwd=DATA_DIR, env=env)
+    if pull.returncode != 0:
+        subprocess.run(['git', 'rebase', '--abort'], cwd=DATA_DIR)
+        raise subprocess.CalledProcessError(pull.returncode, pull.args)
+
+    subprocess.run(['git', 'push', 'origin', f'HEAD:{branch}'], cwd=DATA_DIR, check=True, env=env)
+    print(f"Successfully pushed to GitHub: {branch}")
 
 
 def main():
     """Main scraper function."""
-    print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Starting job scraper...")
-    
-    # Fetch jobs from API
-    print("Fetching jobs from API...")
-    api_response = fetch_jobs()
-    
+    print(f"[{utc_now().strftime('%Y-%m-%d %H:%M:%S UTC')}] Starting job scraper...")
+    session = create_session()
+
     # Get tracked job IDs
     tracked_ids = get_tracked_job_ids()
     print(f"Currently tracking {len(tracked_ids)} job IDs")
-    
+
+    # Fetch jobs from API
+    print("Fetching jobs from API...")
+    positions = fetch_jobs(session, tracked_ids)
+
     # Find new jobs
-    new_jobs = get_new_jobs(api_response, tracked_ids)
+    new_jobs = get_new_jobs(positions, tracked_ids)
     print(f"Found {len(new_jobs)} new job(s)")
-    
+
+    all_jobs = load_json_file(DATA_DIR / JOBS_FILE)
+    all_jobs.setdefault('jobs', [])
+
+    discovered_at = utc_now().isoformat(timespec='seconds')
+    new_entries = [{**job, 'discovered_at': discovered_at} for job in new_jobs]
+    all_jobs['jobs'].extend(new_entries)
+
+    # Levels come from each job's description, which takes an extra request per job
+    levels_filled = fill_missing_levels(session, all_jobs['jobs'])
+    if levels_filled:
+        print(f"Filled in level for {levels_filled} job(s)")
+
+    if not new_jobs and not levels_filled:
+        print("No new jobs found.")
+        print("Scraper completed successfully.\n")
+        return
+
     if new_jobs:
-        # Update tracked IDs
-        new_ids = {job['id'] for job in new_jobs if job.get('id')}
-        tracked_ids.update(new_ids)
+        tracked_ids.update(job['id'] for job in new_jobs)
         save_tracked_job_ids(tracked_ids)
-        
-        # Save new jobs
-        update_jobs_file(new_jobs)
-        
-        # Print new jobs
+    save_jobs_file(all_jobs)
+
+    if new_jobs:
         print("\nNew jobs discovered:")
-        for job in new_jobs:
+        for job in new_entries:
             print(f"  - {job.get('name', 'N/A')} (ID: {job.get('id')})")
+            print(f"    Level: {job.get('level') or 'unknown'}")
             print(f"    Locations: {', '.join(job.get('locations', []))}")
             print(f"    URL: https://apply.careers.microsoft.com{job.get('positionUrl', '')}")
-        
-        # Commit to git
-        commit_message = f"Add {len(new_jobs)} new job(s) - {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
-        if commit_to_git(commit_message):
-            # Push to GitHub after successful commit
-            push_to_github()
+
+    timestamp = utc_now().strftime('%Y-%m-%d %H:%M:%S UTC')
+    if new_jobs:
+        commit_message = f"Add {len(new_jobs)} new job(s) - {timestamp}"
     else:
-        print("No new jobs found.")
-    
+        commit_message = f"Update levels for {levels_filled} job(s) - {timestamp}"
+
+    try:
+        if commit_to_git(commit_message):
+            push_to_github()
+    except FileNotFoundError:
+        print("Git is not installed. Skipping git commit.")
+    except subprocess.CalledProcessError as e:
+        print(f"Error updating GitHub: {e}")
+        sys.exit(1)
+
     print("Scraper completed successfully.\n")
 
 

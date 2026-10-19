@@ -21,11 +21,12 @@ echo ""
 echo "Script directory: $SCRIPT_DIR"
 echo "Python path: $PYTHON_PATH"
 echo ""
-echo "Cron job to be added:"
+echo "Cron jobs to be added:"
 echo "$CRON_JOB"
+echo "$CRON_JOB2"
 echo ""
 
-read -p "Add this cron job? (y/n) " -n 1 -r
+read -p "Add these cron jobs? (y/n) " -n 1 -r
 echo ""
 
 if [[ $REPLY =~ ^[Yy]$ ]]; then
@@ -35,9 +36,9 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
         crontab -l 2>/dev/null | grep -v "scraper.py" | crontab -
     fi
     
-    # Add new cron job
-    (crontab -l 2>/dev/null; echo "$CRON_JOB") | crontab -
-    echo "✓ Cron job added successfully!"
+    # Add both entries: :30 past 8 AM-4 PM, and on the hour 9 AM-5 PM
+    (crontab -l 2>/dev/null; echo "$CRON_JOB"; echo "$CRON_JOB2") | crontab -
+    echo "✓ Cron jobs added successfully!"
     echo ""
     echo "Current crontab:"
     crontab -l

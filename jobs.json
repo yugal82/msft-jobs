@@ -20,7 +20,8 @@
       "locationFlexibility": null,
       "atsJobId": "200049031",
       "positionUrl": "/careers/job/1970393556962912",
-      "discovered_at": "2026-08-20T22:50:45.610930"
+      "discovered_at": "2026-08-20T22:50:45.610930",
+      "level": "IC3"
     },
     {
       "id": 1970393556972166,
@@ -42,7 +43,8 @@
       "locationFlexibility": null,
       "atsJobId": "200049503",
       "positionUrl": "/careers/job/1970393556972166",
-      "discovered_at": "2026-08-20T22:50:45.610934"
+      "discovered_at": "2026-08-20T22:50:45.610934",
+      "level": "IC2"
     },
     {
       "id": 1970393556971568,
@@ -78,7 +80,8 @@
       "locationFlexibility": null,
       "atsJobId": "200049333",
       "positionUrl": "/careers/job/1970393556971568",
-      "discovered_at": "2026-08-20T23:46:00.671020"
+      "discovered_at": "2026-08-20T23:46:00.671020",
+      "level": "IC3"
     },
     {
       "id": 1970393556972157,
@@ -100,7 +103,8 @@
       "locationFlexibility": null,
       "atsJobId": "200049495",
       "positionUrl": "/careers/job/1970393556972157",
-      "discovered_at": "2026-08-21T17:22:46.761211"
+      "discovered_at": "2026-08-21T17:22:46.761211",
+      "level": "IC2"
     },
     {
       "id": 1970393556866179,
@@ -122,7 +126,8 @@
       "locationFlexibility": null,
       "atsJobId": "200037222",
       "positionUrl": "/careers/job/1970393556866179",
-      "discovered_at": "2026-08-21T17:22:46.761216"
+      "discovered_at": "2026-08-21T17:22:46.761216",
+      "level": "IC3/IC4"
     },
     {
       "id": 1970393556627516,
@@ -144,7 +149,8 @@
       "locationFlexibility": null,
       "atsJobId": "200007619",
       "positionUrl": "/careers/job/1970393556627516",
-      "discovered_at": "2026-08-21T21:44:46.057962"
+      "discovered_at": "2026-08-21T21:44:46.057962",
+      "level": "IC4/IC5"
     },
     {
       "id": 1970393556971196,
@@ -166,7 +172,8 @@
       "locationFlexibility": null,
       "atsJobId": "200049103",
       "positionUrl": "/careers/job/1970393556971196",
-      "discovered_at": "2026-08-24T19:50:36.732428"
+      "discovered_at": "2026-08-24T19:50:36.732428",
+      "level": "IC3"
     },
     {
       "id": 1970393556971198,
@@ -188,7 +195,8 @@
       "locationFlexibility": null,
       "atsJobId": "200049102",
       "positionUrl": "/careers/job/1970393556971198",
-      "discovered_at": "2026-08-24T19:50:36.732435"
+      "discovered_at": "2026-08-24T19:50:36.732435",
+      "level": "IC3"
     },
     {
       "id": 1970393556980323,
@@ -224,7 +232,8 @@
       "locationFlexibility": null,
       "atsJobId": "200050944",
       "positionUrl": "/careers/job/1970393556980323",
-      "discovered_at": "2026-08-25T16:08:41.139763"
+      "discovered_at": "2026-08-25T16:08:41.139763",
+      "level": "IC2"
     },
     {
       "id": 1970393556955702,
@@ -250,7 +259,8 @@
       "locationFlexibility": null,
       "atsJobId": "200046741",
       "positionUrl": "/careers/job/1970393556955702",
-      "discovered_at": "2026-08-25T19:51:35.351946"
+      "discovered_at": "2026-08-25T19:51:35.351946",
+      "level": "IC3"
     },
     {
       "id": 1970393556972217,
@@ -272,7 +282,8 @@
       "locationFlexibility": null,
       "atsJobId": "200049541",
       "positionUrl": "/careers/job/1970393556972217",
-      "discovered_at": "2026-08-31T20:59:19.060546"
+      "discovered_at": "2026-08-31T20:59:19.060546",
+      "level": "IC2"
     },
     {
       "id": 1970393556866767,
@@ -294,7 +305,8 @@
       "locationFlexibility": null,
       "atsJobId": "200037472",
       "positionUrl": "/careers/job/1970393556866767",
-      "discovered_at": "2026-08-31T20:59:19.060552"
+      "discovered_at": "2026-08-31T20:59:19.060552",
+      "level": "IC3/IC4"
     },
     {
       "id": 1970393556981149,
@@ -316,7 +328,8 @@
       "locationFlexibility": null,
       "atsJobId": "200051447",
       "positionUrl": "/careers/job/1970393556981149",
-      "discovered_at": "2026-09-01T18:44:14.023982"
+      "discovered_at": "2026-09-01T18:44:14.023982",
+      "level": "IC3"
     },
     {
       "id": 1970393556982661,
@@ -338,7 +351,8 @@
       "locationFlexibility": null,
       "atsJobId": "200052301",
       "positionUrl": "/careers/job/1970393556982661",
-      "discovered_at": "2026-09-01T18:44:14.023987"
+      "discovered_at": "2026-09-01T18:44:14.023987",
+      "level": "IC3"
     },
     {
       "id": 1970393556983261,
@@ -360,7 +374,8 @@
       "locationFlexibility": null,
       "atsJobId": "200052653",
       "positionUrl": "/careers/job/1970393556983261",
-      "discovered_at": "2026-09-01T21:31:55.187308"
+      "discovered_at": "2026-09-01T21:31:55.187308",
+      "level": "IC3/IC4"
     },
     {
       "id": 1970393556983260,
@@ -382,7 +397,8 @@
       "locationFlexibility": null,
       "atsJobId": "200052651",
       "positionUrl": "/careers/job/1970393556983260",
-      "discovered_at": "2026-09-01T23:38:53.335300"
+      "discovered_at": "2026-09-01T23:38:53.335300",
+      "level": "IC3"
     },
     {
       "id": 1970393556986124,
@@ -408,7 +424,8 @@
       "locationFlexibility": null,
       "atsJobId": "200053313",
       "positionUrl": "/careers/job/1970393556986124",
-      "discovered_at": "2026-09-04T18:31:52.407352"
+      "discovered_at": "2026-09-04T18:31:52.407352",
+      "level": "IC3"
     },
     {
       "id": 1970393556984128,
@@ -430,7 +447,8 @@
       "locationFlexibility": null,
       "atsJobId": "200052840",
       "positionUrl": "/careers/job/1970393556984128",
-      "discovered_at": "2026-09-04T18:31:52.407356"
+      "discovered_at": "2026-09-04T18:31:52.407356",
+      "level": "IC3"
     },
     {
       "id": 1970393556986780,
@@ -452,7 +470,8 @@
       "locationFlexibility": null,
       "atsJobId": "200053406",
       "positionUrl": "/careers/job/1970393556986780",
-      "discovered_at": "2026-09-04T23:06:31.568174"
+      "discovered_at": "2026-09-04T23:06:31.568174",
+      "level": "IC4"
     },
     {
       "id": 1970393556985572,
@@ -474,7 +493,8 @@
       "locationFlexibility": null,
       "atsJobId": "200053268",
       "positionUrl": "/careers/job/1970393556985572",
-      "discovered_at": "2026-09-08T18:54:48.445453"
+      "discovered_at": "2026-09-08T18:54:48.445453",
+      "level": "IC2"
     },
     {
       "id": 1970393556988778,
@@ -496,7 +516,8 @@
       "locationFlexibility": null,
       "atsJobId": "200053775",
       "positionUrl": "/careers/job/1970393556988778",
-      "discovered_at": "2026-09-09T23:22:30.483050"
+      "discovered_at": "2026-09-09T23:22:30.483050",
+      "level": "IC2"
     },
     {
       "id": 1970393556982925,
@@ -518,7 +539,8 @@
       "locationFlexibility": null,
       "atsJobId": "200052446",
       "positionUrl": "/careers/job/1970393556982925",
-      "discovered_at": "2026-09-10T18:37:52.158119"
+      "discovered_at": "2026-09-10T18:37:52.158119",
+      "level": "IC2"
     },
     {
       "id": 1970393556986820,
@@ -540,7 +562,8 @@
       "locationFlexibility": null,
       "atsJobId": "200053436",
       "positionUrl": "/careers/job/1970393556986820",
-      "discovered_at": "2026-09-10T21:17:05.948207"
+      "discovered_at": "2026-09-10T21:17:05.948207",
+      "level": "IC3"
     },
     {
       "id": 1970393556988083,
@@ -562,7 +585,8 @@
       "locationFlexibility": null,
       "atsJobId": "200053586",
       "positionUrl": "/careers/job/1970393556988083",
-      "discovered_at": "2026-09-10T21:17:05.948211"
+      "discovered_at": "2026-09-10T21:17:05.948211",
+      "level": "IC2"
     },
     {
       "id": 1970393556992205,
@@ -584,7 +608,8 @@
       "locationFlexibility": null,
       "atsJobId": "200054718",
       "positionUrl": "/careers/job/1970393556992205",
-      "discovered_at": "2026-09-14T22:59:28.931011"
+      "discovered_at": "2026-09-14T22:59:28.931011",
+      "level": "IC3"
     },
     {
       "id": 1970393556999149,
@@ -608,7 +633,8 @@
       "locationFlexibility": null,
       "atsJobId": "200055883",
       "positionUrl": "/careers/job/1970393556999149",
-      "discovered_at": "2026-09-18T21:20:33.309579"
+      "discovered_at": "2026-09-18T21:20:33.309579",
+      "level": "IC3"
     },
     {
       "id": 1970393556999153,
@@ -634,7 +660,8 @@
       "locationFlexibility": null,
       "atsJobId": "200055886",
       "positionUrl": "/careers/job/1970393556999153",
-      "discovered_at": "2026-09-18T21:20:33.309586"
+      "discovered_at": "2026-09-18T21:20:33.309586",
+      "level": "IC3"
     },
     {
       "id": 1970393556986144,
@@ -656,7 +683,8 @@
       "locationFlexibility": null,
       "atsJobId": "200053347",
       "positionUrl": "/careers/job/1970393556986144",
-      "discovered_at": "2026-09-18T23:24:03.730357"
+      "discovered_at": "2026-09-18T23:24:03.730357",
+      "level": "IC2"
     },
     {
       "id": 1970393556999268,
@@ -678,7 +706,8 @@
       "locationFlexibility": null,
       "atsJobId": "200055937",
       "positionUrl": "/careers/job/1970393556999268",
-      "discovered_at": "2026-09-22T19:02:20.391399"
+      "discovered_at": "2026-09-22T19:02:20.391399",
+      "level": "IC5"
     },
     {
       "id": 1970393556962504,
@@ -700,7 +729,8 @@
       "locationFlexibility": null,
       "atsJobId": "200048887",
       "positionUrl": "/careers/job/1970393556962504",
-      "discovered_at": "2026-09-22T19:02:20.391403"
+      "discovered_at": "2026-09-22T19:02:20.391403",
+      "level": "IC2"
     },
     {
       "id": 1970393557004929,
@@ -722,7 +752,8 @@
       "locationFlexibility": null,
       "atsJobId": "200057383",
       "positionUrl": "/careers/job/1970393557004929",
-      "discovered_at": "2026-09-24T19:26:00.238824"
+      "discovered_at": "2026-09-24T19:26:00.238824",
+      "level": "IC2"
     },
     {
       "id": 1970393556999328,
@@ -748,7 +779,8 @@
       "locationFlexibility": null,
       "atsJobId": "200055970",
       "positionUrl": "/careers/job/1970393556999328",
-      "discovered_at": "2026-09-24T19:26:00.238831"
+      "discovered_at": "2026-09-24T19:26:00.238831",
+      "level": "IC3"
     },
     {
       "id": 1970393556986674,
@@ -772,7 +804,8 @@
       "locationFlexibility": null,
       "atsJobId": "200053374",
       "positionUrl": "/careers/job/1970393556986674",
-      "discovered_at": "2026-09-24T19:26:00.238834"
+      "discovered_at": "2026-09-24T19:26:00.238834",
+      "level": "IC4"
     },
     {
       "id": 1970393556999388,
@@ -796,7 +829,8 @@
       "locationFlexibility": null,
       "atsJobId": "200056007",
       "positionUrl": "/careers/job/1970393556999388",
-      "discovered_at": "2026-09-25T19:39:50.879855"
+      "discovered_at": "2026-09-25T19:39:50.879855",
+      "level": "IC3"
     },
     {
       "id": 1970393556999992,
@@ -820,7 +854,8 @@
       "locationFlexibility": null,
       "atsJobId": "200056180",
       "positionUrl": "/careers/job/1970393556999992",
-      "discovered_at": "2026-09-25T22:54:45.798408"
+      "discovered_at": "2026-09-25T22:54:45.798408",
+      "level": "IC2"
     },
     {
       "id": 1970393557008566,
@@ -842,7 +877,8 @@
       "locationFlexibility": null,
       "atsJobId": "200058252",
       "positionUrl": "/careers/job/1970393557008566",
-      "discovered_at": "2026-09-29T20:09:17.332096"
+      "discovered_at": "2026-09-29T20:09:17.332096",
+      "level": "IC2"
     },
     {
       "id": 1970393556999391,
@@ -870,7 +906,8 @@
       "locationFlexibility": null,
       "atsJobId": "200056006",
       "positionUrl": "/careers/job/1970393556999391",
-      "discovered_at": "2026-09-29T20:09:17.332103"
+      "discovered_at": "2026-09-29T20:09:17.332103",
+      "level": "IC3"
     },
     {
       "id": 1970393557000103,
@@ -892,7 +929,8 @@
       "locationFlexibility": null,
       "atsJobId": "200056252",
       "positionUrl": "/careers/job/1970393557000103",
-      "discovered_at": "2026-09-30T20:13:48.703407"
+      "discovered_at": "2026-09-30T20:13:48.703407",
+      "level": "IC3"
     },
     {
       "id": 1970393556971484,
@@ -926,7 +964,8 @@
       "locationFlexibility": null,
       "atsJobId": "200049278",
       "positionUrl": "/careers/job/1970393556971484",
-      "discovered_at": "2026-10-02T20:13:37.299057"
+      "discovered_at": "2026-10-02T20:13:37.299057",
+      "level": "IC3"
     },
     {
       "id": 1970393556989020,
@@ -948,7 +987,8 @@
       "locationFlexibility": null,
       "atsJobId": "200053852",
       "positionUrl": "/careers/job/1970393556989020",
-      "discovered_at": "2026-10-02T20:13:37.299059"
+      "discovered_at": "2026-10-02T20:13:37.299059",
+      "level": "IC2"
     },
     {
       "id": 1970393557023035,
@@ -970,7 +1010,8 @@
       "locationFlexibility": null,
       "atsJobId": "200059565",
       "positionUrl": "/careers/job/1970393557023035",
-      "discovered_at": "2026-10-05T22:14:05.900983"
+      "discovered_at": "2026-10-05T22:14:05.900983",
+      "level": "IC3"
     },
     {
       "id": 1970393557023157,
@@ -994,7 +1035,8 @@
       "locationFlexibility": null,
       "atsJobId": "200059631",
       "positionUrl": "/careers/job/1970393557023157",
-      "discovered_at": "2026-10-05T22:14:05.900988"
+      "discovered_at": "2026-10-05T22:14:05.900988",
+      "level": "ATR-B/ATR-C"
     },
     {
       "id": 1970393557022445,
@@ -1016,7 +1058,8 @@
       "locationFlexibility": null,
       "atsJobId": "200059321",
       "positionUrl": "/careers/job/1970393557022445",
-      "discovered_at": "2026-10-05T22:14:05.900994"
+      "discovered_at": "2026-10-05T22:14:05.900994",
+      "level": "IC2"
     },
     {
       "id": 1970393557016400,
@@ -1038,7 +1081,8 @@
       "locationFlexibility": null,
       "atsJobId": "200058558",
       "positionUrl": "/careers/job/1970393557016400",
-      "discovered_at": "2026-10-05T22:14:05.900995"
+      "discovered_at": "2026-10-05T22:14:05.900995",
+      "level": "IC2"
     },
     {
       "id": 1970393557022395,
@@ -1060,7 +1104,8 @@
       "locationFlexibility": null,
       "atsJobId": "200059311",
       "positionUrl": "/careers/job/1970393557022395",
-      "discovered_at": "2026-10-05T22:14:05.900996"
+      "discovered_at": "2026-10-05T22:14:05.900996",
+      "level": "IC2"
     },
     {
       "id": 1970393557004814,
@@ -1082,7 +1127,8 @@
       "locationFlexibility": null,
       "atsJobId": "200057324",
       "positionUrl": "/careers/job/1970393557004814",
-      "discovered_at": "2026-10-05T22:14:05.900997"
+      "discovered_at": "2026-10-05T22:14:05.900997",
+      "level": "IC2"
     },
     {
       "id": 1970393557015224,
@@ -1104,7 +1150,8 @@
       "locationFlexibility": null,
       "atsJobId": "200058506",
       "positionUrl": "/careers/job/1970393557015224",
-      "discovered_at": "2026-10-06T20:29:14.721164"
+      "discovered_at": "2026-10-06T20:29:14.721164",
+      "level": "IC3"
     },
     {
       "id": 1970393557022479,
@@ -1126,7 +1173,8 @@
       "locationFlexibility": null,
       "atsJobId": "200059341",
       "positionUrl": "/careers/job/1970393557022479",
-      "discovered_at": "2026-10-06T20:29:14.721169"
+      "discovered_at": "2026-10-06T20:29:14.721169",
+      "level": "IC3"
     },
     {
       "id": 1970393557021555,
@@ -1148,7 +1196,8 @@
       "locationFlexibility": null,
       "atsJobId": "200059098",
       "positionUrl": "/careers/job/1970393557021555",
-      "discovered_at": "2026-10-07T20:43:38.182252"
+      "discovered_at": "2026-10-07T20:43:38.182252",
+      "level": "IC3"
     },
     {
       "id": 1970393557022500,
@@ -1170,7 +1219,8 @@
       "locationFlexibility": null,
       "atsJobId": "200059353",
       "positionUrl": "/careers/job/1970393557022500",
-      "discovered_at": "2026-10-07T20:43:38.182259"
+      "discovered_at": "2026-10-07T20:43:38.182259",
+      "level": "IC4/IC5"
     },
     {
       "id": 1970393557027422,
@@ -1192,7 +1242,8 @@
       "locationFlexibility": null,
       "atsJobId": "200060983",
       "positionUrl": "/careers/job/1970393557027422",
-      "discovered_at": "2026-10-09T20:15:36.776095"
+      "discovered_at": "2026-10-09T20:15:36.776095",
+      "level": "IC2"
     },
     {
       "id": 1970393557023170,
@@ -1214,7 +1265,8 @@
       "locationFlexibility": null,
       "atsJobId": "200059636",
       "positionUrl": "/careers/job/1970393557023170",
-      "discovered_at": "2026-10-12T22:33:01.869976"
+      "discovered_at": "2026-10-12T22:33:01.869976",
+      "level": "IC2"
     },
     {
       "id": 1970393557037856,
@@ -1236,7 +1288,8 @@
       "locationFlexibility": null,
       "atsJobId": "200061277",
       "positionUrl": "/careers/job/1970393557037856",
-      "discovered_at": "2026-10-12T22:33:01.869981"
+      "discovered_at": "2026-10-12T22:33:01.869981",
+      "level": "Intern"
     },
     {
       "id": 1970393557022487,
@@ -1260,7 +1313,8 @@
       "locationFlexibility": null,
       "atsJobId": "200059345",
       "positionUrl": "/careers/job/1970393557022487",
-      "discovered_at": "2026-10-13T20:52:32.397255"
+      "discovered_at": "2026-10-13T20:52:32.397255",
+      "level": "IC2"
     },
     {
       "id": 1970393557026652,
@@ -1282,9 +1336,10 @@
       "locationFlexibility": null,
       "atsJobId": "200060544",
       "positionUrl": "/careers/job/1970393557026652",
-      "discovered_at": "2026-10-15T19:19:24.926844"
+      "discovered_at": "2026-10-15T19:19:24.926844",
+      "level": "IC2"
     }
   ],
-  "last_updated": "2026-10-15T19:19:24.926848",
+  "last_updated": "2026-10-19T07:20:58+00:00",
   "total_jobs": 55
 }

@@ -1338,8 +1338,77 @@
       "positionUrl": "/careers/job/1970393557026652",
       "discovered_at": "2026-10-15T19:19:24.926844",
       "level": "IC2"
+    },
+    {
+      "id": 1970393557041005,
+      "displayJobId": "200061975",
+      "name": "Software Engineer II",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1792433189,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1792009554,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200061975",
+      "positionUrl": "/careers/job/1970393557041005",
+      "discovered_at": "2026-10-19T19:13:40+00:00",
+      "level": "IC3"
+    },
+    {
+      "id": 1970393557027410,
+      "displayJobId": "200060978",
+      "name": "Cloud Solution Architect, Copilot and Power Platform",
+      "locations": [
+        "United States, Multiple Locations, Multiple Locations"
+      ],
+      "standardizedLocations": [
+        "US"
+      ],
+      "postedTs": 1792197215,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Cloud Solution Architecture",
+      "creationTs": 1791485788,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200060978",
+      "positionUrl": "/careers/job/1970393557027410",
+      "discovered_at": "2026-10-19T19:13:40+00:00",
+      "level": "IC3"
+    },
+    {
+      "id": 1970393556985571,
+      "displayJobId": "200053267",
+      "name": "Software Engineer",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1791876277,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1788356512,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200053267",
+      "positionUrl": "/careers/job/1970393556985571",
+      "discovered_at": "2026-10-19T19:13:40+00:00",
+      "level": "IC2"
     }
   ],
-  "last_updated": "2026-10-19T07:20:58+00:00",
-  "total_jobs": 55
+  "last_updated": "2026-10-19T19:13:44+00:00",
+  "total_jobs": 58
 }

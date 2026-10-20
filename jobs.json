@@ -1430,8 +1430,54 @@
       "positionUrl": "/careers/job/1970393557039399",
       "discovered_at": "2026-10-20T19:30:28+00:00",
       "level": "IC2"
+    },
+    {
+      "id": 1970393557043616,
+      "displayJobId": "200062634",
+      "name": "Software Engineering IC2",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1792532100,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1792431606,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200062634",
+      "positionUrl": "/careers/job/1970393557043616",
+      "discovered_at": "2026-10-20T22:46:28+00:00",
+      "level": "IC2"
+    },
+    {
+      "id": 1970393557038974,
+      "displayJobId": "200061470",
+      "name": "Software Engineer",
+      "locations": [
+        "United States, Massachusetts, Cambridge"
+      ],
+      "standardizedLocations": [
+        "Cambridge, MA, US"
+      ],
+      "postedTs": 1792131018,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1791821355,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200061470",
+      "positionUrl": "/careers/job/1970393557038974",
+      "discovered_at": "2026-10-20T22:46:28+00:00",
+      "level": "IC2"
     }
   ],
-  "last_updated": "2026-10-20T19:30:28+00:00",
-  "total_jobs": 59
+  "last_updated": "2026-10-20T22:46:30+00:00",
+  "total_jobs": 61
 }

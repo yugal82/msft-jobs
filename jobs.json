@@ -1407,8 +1407,31 @@
       "positionUrl": "/careers/job/1970393556985571",
       "discovered_at": "2026-10-19T19:13:40+00:00",
       "level": "IC2"
+    },
+    {
+      "id": 1970393557039399,
+      "displayJobId": "200061587",
+      "name": "Software Engineer",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1792512748,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1791850979,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200061587",
+      "positionUrl": "/careers/job/1970393557039399",
+      "discovered_at": "2026-10-20T19:30:28+00:00",
+      "level": "IC2"
     }
   ],
-  "last_updated": "2026-10-19T19:13:44+00:00",
-  "total_jobs": 58
+  "last_updated": "2026-10-20T19:30:28+00:00",
+  "total_jobs": 59
 }

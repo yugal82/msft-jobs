@@ -1476,8 +1476,54 @@
       "positionUrl": "/careers/job/1970393557038974",
       "discovered_at": "2026-10-20T22:46:28+00:00",
       "level": "IC2"
+    },
+    {
+      "id": 1970393557044765,
+      "displayJobId": "200063141",
+      "name": "Software Engineer: Security & Identity Intern Opportunities for University Students, Cambridge",
+      "locations": [
+        "United States, Massachusetts, Cambridge"
+      ],
+      "standardizedLocations": [
+        "Cambridge, MA, US"
+      ],
+      "postedTs": 1792622205,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1792619693,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200063141",
+      "positionUrl": "/careers/job/1970393557044765",
+      "discovered_at": "2026-10-21T22:52:33+00:00",
+      "level": "Intern"
+    },
+    {
+      "id": 1970393557037551,
+      "displayJobId": "200061107",
+      "name": "Software Engineer II",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1792187361,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1791556119,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200061107",
+      "positionUrl": "/careers/job/1970393557037551",
+      "discovered_at": "2026-10-21T22:52:33+00:00",
+      "level": "IC3"
     }
   ],
-  "last_updated": "2026-10-20T22:46:30+00:00",
-  "total_jobs": 61
+  "last_updated": "2026-10-21T22:52:35+00:00",
+  "total_jobs": 63
 }

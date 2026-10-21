@@ -70,11 +70,13 @@ def save_json_file(filepath: Path, data: Dict) -> None:
 def create_session() -> requests.Session:
     """Create an HTTP session that backs off and retries on rate limits and server errors."""
     retry = Retry(
-        total=4,
-        backoff_factor=10,  # Waits 0s, 20s, 40s, 80s between attempts
+        total=5,
+        backoff_factor=15,  # Waits 0s, 30s, 60s, 120s, 120s between attempts
+        backoff_jitter=10,  # Plus up to 10s random, so retries don't land in lockstep
         status_forcelist=(429, 500, 502, 503, 504),
         allowed_methods=('GET',),
         respect_retry_after_header=True,
+        raise_on_status=False,  # Return the last response so callers can tell a 429 from other errors
     )
     session = requests.Session()
     session.mount('https://', HTTPAdapter(max_retries=retry))
@@ -94,6 +96,14 @@ def fetch_jobs(session: requests.Session, tracked_ids: Set[int]) -> List[Dict]:
             time.sleep(REQUEST_DELAY_SECONDS)
         try:
             response = session.get(SEARCH_URL, params={**SEARCH_PARAMS, 'start': start}, timeout=30)
+            if response.status_code == 429:
+                if positions:
+                    print("Rate limited while paging; continuing with the pages fetched so far.")
+                    break
+                # Still throttled after every retry. Nothing is lost by skipping: the
+                # same jobs are still listed when the next run comes around.
+                print("::warning::Microsoft Careers API is rate limiting (HTTP 429). Skipping this run.")
+                sys.exit(0)
             response.raise_for_status()
             data = response.json().get('data', {})
         except requests.RequestException as e:

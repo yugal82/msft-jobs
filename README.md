@@ -164,7 +164,7 @@ INTERVAL_MINUTES = 30  # Change to desired interval
 5. `jobs.json` and `tracked_job_ids.json` are committed, rebased onto the latest remote, and pushed to GitHub
 6. The process repeats every 30 minutes during business hours (Monday-Friday, 8:30 AM - 5:00 PM)
 
-Requests back off and retry automatically when the API rate-limits (HTTP 429). If fetching still fails, or a push fails, the run exits with an error so the failure shows up in the Actions tab.
+Requests back off and retry for about 5 minutes when the API rate-limits (HTTP 429). If the API is still rate limiting after that, the run is skipped with a warning (shown as a yellow annotation in the Actions tab) rather than failed, since the next run picks up the same jobs. Other errors, such as server errors or a failed push, fail the run so they show up in the Actions tab.
 
 ## Job Level
 

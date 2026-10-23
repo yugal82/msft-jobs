@@ -1522,8 +1522,104 @@
       "positionUrl": "/careers/job/1970393557037551",
       "discovered_at": "2026-10-21T22:52:33+00:00",
       "level": "IC3"
+    },
+    {
+      "id": 1970393557044842,
+      "displayJobId": "200063198",
+      "name": "Software Engineering IC2",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1792773915,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1792627821,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200063198",
+      "positionUrl": "/careers/job/1970393557044842",
+      "discovered_at": "2026-10-23T19:28:56+00:00",
+      "level": "IC2"
+    },
+    {
+      "id": 1970393557044771,
+      "displayJobId": "200063146",
+      "name": "Software Engineering Intern",
+      "locations": [
+        "United States, Oklahoma, Tulsa"
+      ],
+      "standardizedLocations": [
+        "Tulsa, OK, US"
+      ],
+      "postedTs": 1792771804,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1792621071,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200063146",
+      "positionUrl": "/careers/job/1970393557044771",
+      "discovered_at": "2026-10-23T19:28:56+00:00",
+      "level": null
+    },
+    {
+      "id": 1970393557040468,
+      "displayJobId": "200061760",
+      "name": "Software Engineer II - Finance Data & Experiences",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1792735950,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1791928687,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200061760",
+      "positionUrl": "/careers/job/1970393557040468",
+      "discovered_at": "2026-10-23T19:28:56+00:00",
+      "level": "IC3"
+    },
+    {
+      "id": 1970393557041624,
+      "displayJobId": "200062213",
+      "name": "Design Verification Engineer",
+      "locations": [
+        "United States, Oregon, Hillsboro",
+        "United States, Texas, Austin",
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Hillsboro, OR, US",
+        "Austin, TX, US",
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1792716064,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Silicon Engineering",
+      "creationTs": 1792089477,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200062213",
+      "positionUrl": "/careers/job/1970393557041624",
+      "discovered_at": "2026-10-23T19:28:56+00:00",
+      "level": "IC2"
     }
   ],
-  "last_updated": "2026-10-21T22:52:35+00:00",
-  "total_jobs": 63
+  "last_updated": "2026-10-23T19:29:01+00:00",
+  "total_jobs": 67
 }

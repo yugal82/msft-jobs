@@ -10,7 +10,7 @@ A Python-based job scraper that monitors Microsoft Careers for new Software Engi
 - 🔄 Automatically commits new jobs to git repository
 - 🚀 Automatically pushes to GitHub repository
 - ☁️ Runs in the cloud via GitHub Actions (no local machine required)
-- ⏰ Business hours only: Monday–Friday, 8:30 AM – 5:00 PM Pacific Time (PST/PDT)
+- ⏰ Scheduled during business hours: Monday–Friday, 8:30 AM – 5:00 PM Pacific Time (PST/PDT)
 - 📊 Maintains a history of all discovered jobs
 
 ## Quick Setup (Cloud – Recommended)
@@ -46,8 +46,10 @@ This will:
 
 The workflow file lives at `.github/workflows/scraper.yml` and will:
 - Run on GitHub-hosted runners
-- Use Pacific Time (PST/PDT) to determine business hours
-- Trigger the scraper every 30 minutes during Mon–Fri, 8:30 AM–5:00 PM PT
+- Trigger the scraper every 30 minutes (at :07 and :37) during Mon–Fri, 8:30 AM–5:00 PM PT
+- Skip runs on weekends or before 8:30 AM Pacific; runs that GitHub starts late in the evening still scrape
+
+**Note:** GitHub doesn't guarantee scheduled runs. When it's busy it delays them, sometimes by hours, or drops them, so in practice the workflow runs fewer than 18 times a day. The odd minutes (:07/:37) avoid the busiest times, when runs are most likely to be dropped.
 
 ### 4. Test the Scraper Locally (Optional)
 

@@ -1,14 +1,15 @@
 name: Microsoft Job Scraper
 
 on:
-  # Run every 30 minutes during business hours (Mon-Fri, 8:30 AM - 5:00 PM Pacific)
-  # Cron is in UTC, so these cover the window in both PDT (UTC-7: 15:30-00:00 UTC)
-  # and PST (UTC-8: 16:30-01:00 UTC). The business-hours step skips runs outside it.
+  # Run every 30 minutes during business hours (Mon-Fri, ~8:30 AM - 5:00 PM Pacific)
+  # Cron is in UTC, so these cover the window in both PDT (UTC-7: 15:37-00:07 UTC)
+  # and PST (UTC-8: 16:37-01:07 UTC). Minutes are :07/:37 rather than :00/:30 because
+  # GitHub drops and delays far more scheduled runs at the top and bottom of the hour.
   schedule:
-    - cron: '30 15 * * 1-5'
-    - cron: '0,30 16-23 * * 1-5'
-    - cron: '0,30 0 * * 2-6'
-    - cron: '0 1 * * 2-6'
+    - cron: '37 15 * * 1-5'
+    - cron: '7,37 16-23 * * 1-5'
+    - cron: '7,37 0 * * 2-6'
+    - cron: '7 1 * * 2-6'
   workflow_dispatch:  # Allow manual trigger (ignores business hours)
 
 # Never let two runs commit and push at the same time
@@ -31,9 +32,11 @@ jobs:
         HHMM=$(TZ='America/Los_Angeles' date +%H%M)
         echo "Current Pacific time: $(TZ='America/Los_Angeles' date '+%a %H:%M')"
 
-        # 8:30 AM - 5:00 PM, plus 15 minutes of grace since GitHub often starts scheduled runs late
+        # Weekdays from 8:30 AM on. There's no evening cutoff: GitHub often starts scheduled
+        # runs hours late, and a late run is still worth scraping. The lower bound only drops
+        # the 7:37/8:07 AM triggers that fire while Pacific is on standard time (PST).
         if [ "${{ github.event_name }}" = "workflow_dispatch" ] || \
-           { [ "$DAY_OF_WEEK" -le 5 ] && [ $((10#$HHMM)) -ge 830 ] && [ $((10#$HHMM)) -le 1715 ]; }; then
+           { [ "$DAY_OF_WEEK" -le 5 ] && [ $((10#$HHMM)) -ge 830 ]; }; then
           echo "inside_hours=true" >> $GITHUB_OUTPUT
         else
           echo "inside_hours=false" >> $GITHUB_OUTPUT

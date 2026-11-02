@@ -1618,8 +1618,31 @@
       "positionUrl": "/careers/job/1970393557041624",
       "discovered_at": "2026-10-23T19:28:56+00:00",
       "level": "IC2"
+    },
+    {
+      "id": 1970393557041124,
+      "displayJobId": "200062053",
+      "name": "Software Engineer II, Azure Intelligent Container Platform - CoreAI",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1792374727,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1792022885,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200062053",
+      "positionUrl": "/careers/job/1970393557041124",
+      "discovered_at": "2026-11-02T23:12:05+00:00",
+      "level": "IC3"
     }
   ],
-  "last_updated": "2026-10-23T19:29:01+00:00",
-  "total_jobs": 67
+  "last_updated": "2026-11-02T23:12:05+00:00",
+  "total_jobs": 68
 }

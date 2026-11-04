@@ -1664,8 +1664,54 @@
       "positionUrl": "/careers/job/1970393557050639",
       "discovered_at": "2026-11-03T21:14:20+00:00",
       "level": "IC2"
+    },
+    {
+      "id": 1970393557046310,
+      "displayJobId": "200063730",
+      "name": "Critical Environment Program Manager",
+      "locations": [
+        "United States, Washington, Quincy"
+      ],
+      "standardizedLocations": [
+        "Quincy, WA, US"
+      ],
+      "postedTs": 1793821356,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Data Center Operations Management",
+      "creationTs": 1792798409,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200063730",
+      "positionUrl": "/careers/job/1970393557046310",
+      "discovered_at": "2026-11-04T21:27:29+00:00",
+      "level": "IC3"
+    },
+    {
+      "id": 1970393556982635,
+      "displayJobId": "200052282",
+      "name": "Software Engineer",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1793810542,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1787856270,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200052282",
+      "positionUrl": "/careers/job/1970393556982635",
+      "discovered_at": "2026-11-04T21:27:29+00:00",
+      "level": "IC2"
     }
   ],
-  "last_updated": "2026-11-03T21:14:21+00:00",
-  "total_jobs": 69
+  "last_updated": "2026-11-04T21:27:31+00:00",
+  "total_jobs": 71
 }

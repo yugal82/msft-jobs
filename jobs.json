@@ -1710,8 +1710,58 @@
       "positionUrl": "/careers/job/1970393556982635",
       "discovered_at": "2026-11-04T21:27:29+00:00",
       "level": "IC2"
+    },
+    {
+      "id": 1970393557055294,
+      "displayJobId": "200065893",
+      "name": "Security Assurance Engineer",
+      "locations": [
+        "United States, Washington, Redmond",
+        "United States, Virginia, Reston",
+        "United States, Maryland, Annapolis Junction"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US",
+        "Reston, VA, US",
+        "MD,US"
+      ],
+      "postedTs": 1794262268,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Security Assurance",
+      "creationTs": 1793906771,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200065893",
+      "positionUrl": "/careers/job/1970393557055294",
+      "discovered_at": "2026-11-09T23:51:03+00:00",
+      "level": "IC2"
+    },
+    {
+      "id": 1970393557039397,
+      "displayJobId": "200061585",
+      "name": "Software Engineering",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1794255564,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1791850141,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200061585",
+      "positionUrl": "/careers/job/1970393557039397",
+      "discovered_at": "2026-11-09T23:51:03+00:00",
+      "level": "IC2"
     }
   ],
-  "last_updated": "2026-11-04T21:27:31+00:00",
-  "total_jobs": 71
+  "last_updated": "2026-11-09T23:51:05+00:00",
+  "total_jobs": 73
 }

@@ -1783,8 +1783,31 @@
       "positionUrl": "/careers/job/1970393556999878",
       "discovered_at": "2026-11-10T21:24:51+00:00",
       "level": "IC2"
+    },
+    {
+      "id": 1970393557073410,
+      "displayJobId": "200067367",
+      "name": "Software Engineer - MBO",
+      "locations": [
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1794616202,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Software Engineering",
+      "creationTs": 1794595790,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200067367",
+      "positionUrl": "/careers/job/1970393557073410",
+      "discovered_at": "2026-11-14T02:16:41+00:00",
+      "level": "IC2"
     }
   ],
-  "last_updated": "2026-11-10T21:24:51+00:00",
-  "total_jobs": 74
+  "last_updated": "2026-11-14T02:16:41+00:00",
+  "total_jobs": 75
 }

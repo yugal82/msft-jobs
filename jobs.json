@@ -1806,8 +1806,70 @@
       "positionUrl": "/careers/job/1970393557073410",
       "discovered_at": "2026-11-14T02:16:41+00:00",
       "level": "IC2"
+    },
+    {
+      "id": 1970393557046192,
+      "displayJobId": "200063629",
+      "name": "Technical Support Engineer",
+      "locations": [
+        "United States, North Carolina, Charlotte",
+        "United States, Georgia, Atlanta",
+        "United States, Texas, Las Colinas",
+        "United States, Washington, Redmond",
+        "United States, Texas, Dallas"
+      ],
+      "standardizedLocations": [
+        "Charlotte, NC, US",
+        "Atlanta, GA, US",
+        "Irving, TX, US",
+        "Redmond, WA, US",
+        "Dallas, TX, US"
+      ],
+      "postedTs": 1794947394,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Technical Support Engineering",
+      "creationTs": 1792791449,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200063629",
+      "positionUrl": "/careers/job/1970393557046192",
+      "discovered_at": "2026-11-17T23:06:38+00:00",
+      "level": "IC3"
+    },
+    {
+      "id": 1970393557046194,
+      "displayJobId": "200063628",
+      "name": "Technical Support Engineer",
+      "locations": [
+        "United States, North Carolina, Charlotte",
+        "United States, Georgia, Atlanta",
+        "United States, Texas, Las Colinas",
+        "United States, Texas, Dallas",
+        "United States, Washington, Redmond"
+      ],
+      "standardizedLocations": [
+        "Charlotte, NC, US",
+        "Atlanta, GA, US",
+        "Irving, TX, US",
+        "Dallas, TX, US",
+        "Redmond, WA, US"
+      ],
+      "postedTs": 1794947229,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Technical Support Engineering",
+      "creationTs": 1792791397,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200063628",
+      "positionUrl": "/careers/job/1970393557046194",
+      "discovered_at": "2026-11-17T23:06:38+00:00",
+      "level": "IC3"
     }
   ],
-  "last_updated": "2026-11-14T02:16:41+00:00",
-  "total_jobs": 75
+  "last_updated": "2026-11-17T23:06:40+00:00",
+  "total_jobs": 77
 }

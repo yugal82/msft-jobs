@@ -1868,8 +1868,31 @@
       "positionUrl": "/careers/job/1970393557046194",
       "discovered_at": "2026-11-17T23:06:38+00:00",
       "level": "IC3"
+    },
+    {
+      "id": 1970393557000177,
+      "displayJobId": "200056297",
+      "name": "Solution Engineer - AI Workforce",
+      "locations": [
+        "United States, Multiple Locations, Multiple Locations"
+      ],
+      "standardizedLocations": [
+        "US"
+      ],
+      "postedTs": 1795540845,
+      "solrScore": null,
+      "stars": 0,
+      "department": "Solution Engineering",
+      "creationTs": 1789597176,
+      "isHot": 0,
+      "workLocationOption": "onsite",
+      "locationFlexibility": null,
+      "atsJobId": "200056297",
+      "positionUrl": "/careers/job/1970393557000177",
+      "discovered_at": "2026-11-25T00:03:53+00:00",
+      "level": "IC3/IC4"
     }
   ],
-  "last_updated": "2026-11-17T23:06:40+00:00",
-  "total_jobs": 77
+  "last_updated": "2026-11-25T00:03:53+00:00",
+  "total_jobs": 78
 }
